@@ -22,7 +22,7 @@ description: >-
    Our staging platform will be up by the end of December 2023, where agencies can test out the new platform and obtain API keys needed for testing.\
 
 5. **For 5XX server errors, will the requests be queued on Postman’s side?**\
-   No.\
+   No it won't.\
 
 6. **Regarding** [**Send messages in Bulk**](https://docs.developer.tech.gov.sg/docs/postman-sgdp-guide/send-messages-in-bulk) **are there any limits on the number of messages that can be sent or on the file size?**\
    Users can upload a csv file of up to 20MB in size.\
