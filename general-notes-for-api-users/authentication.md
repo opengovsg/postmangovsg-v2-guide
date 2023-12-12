@@ -8,7 +8,7 @@ Authentication to the API is performed with [HTTP Bearer Auth](https://developer
 
 {% code title="An example curl request:" overflow="wrap" %}
 ```sh
-curl https://<POSTMAN_V2_API_BASE_URL>/api/v1/campaigns/messages/ -H "Authorization: Bearer YOUR_API_KEY"
+curl https://<POSTMAN_V2_API_BASE_URL>/api/v2/campaigns/:campaignId/messages -H "Authorization: Bearer YOUR_API_KEY"
 ```
 {% endcode %}
 

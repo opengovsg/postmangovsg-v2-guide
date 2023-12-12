@@ -13,6 +13,13 @@
 * [Pagination](general-notes-for-api-users/pagination.md)
 * [Rate Limits](general-notes-for-api-users/rate-limits.md)
 
+## Campaigns and Messages
+
+* [Logging into Postman v2](campaigns-and-messages/logging-into-postman-v2.md)
+* [Create Campaign](campaigns-and-messages/create-campaign.md)
+* [Create Message](campaigns-and-messages/create-message.md)
+* [Settings (IP address and API keys)](campaigns-and-messages/settings-ip-address-and-api-keys.md)
+
 ## Endpoints for API users
 
 * [Endpoints for API users](endpoints-for-api-users/endpoints-for-api-users/README.md)

@@ -6,6 +6,6 @@ To optimise performance and reliability, Postman v2 has established rate limits 
 
 {% code title="Base URL" %}
 ```sh
-https://<POSTMAN_V2_API_BASE_URL>/api/v1
+https://<POSTMAN_V2_API_BASE_URL>/api/v2
 ```
 {% endcode %}

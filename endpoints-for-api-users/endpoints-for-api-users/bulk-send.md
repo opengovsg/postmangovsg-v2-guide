@@ -2,13 +2,19 @@
 
 Sends multiple messages in a single API request.
 
+{% code title="Endpoint #3" %}
+```sh
+POST /campaigns/:campaignId/bulk/messages
+```
+{% endcode %}
+
 You will need to prepare a CSV file where, in addition to recipient and language, each column represents a value to the campaign’s template parameter.
 
 {% code title="Example CSV File" overflow="wrap" %}
 ```
 recipient,language,recipientName,topic
-+6599999999,ENGLISH,Emily Yeo,passport application #12345F
-+6599999998,CHINESE,James Tan,passport application #67890A
++6599999999,english,Emily Yeo,passport application #12345F
++6599999998,chinese,James Tan,passport application #67890A
 ```
 {% endcode %}
 
@@ -16,7 +22,7 @@ You will then need to upload this file to this endpoint.
 
 To upload your file, send a `multipart/form-data` request to this endpoint.
 
-{% code title="Endpoint" %}
+{% code title="Request Body" %}
 ```json
 {
   "batchId": "batch_d11eabe6-8454-4934-96a6-4cdb9242412c"
@@ -35,7 +41,7 @@ formData.append("file", file);
 
 const request = new XMLHttpRequest();
 request.setRequestHeader('Authorization', 'Bearer ' + YOUR_API_KEY);
-request.open("POST", "https://<POSTMAN_V2_API_BASE_URL>/api/v1/campaigns/<YOUR_CAMPAIGN_ID>/bulk/messages");
+request.open("POST", "https://<POSTMAN_V2_API_BASE_URL>/api/v2/campaigns/<YOUR_CAMPAIGN_ID>/bulk/messages");
 
 request.send(formData);
 ```

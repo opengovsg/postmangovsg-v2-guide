@@ -1,7 +1,7 @@
 # The message object
 
 ```json
-//Example request
+//Example response
 {
   "id": "message_62a2a141-97f8-4fc8-82db-36f539228322",
   "recipient": "+6599999999",
