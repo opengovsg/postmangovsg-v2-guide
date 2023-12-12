@@ -43,6 +43,8 @@ The values that were inserted into the message template and form the complete me
 
 In the example above, the message template that was used contained two parameters: `recipientName` and `topic`.
 
+Avoid using `recipient` and `language` as keywords as they are mandatory fields in the request payload.&#x20;
+
 ***
 
 #### **latestStatus** string

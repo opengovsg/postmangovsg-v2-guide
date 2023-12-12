@@ -1,10 +1,14 @@
 # Authentication
 
-The Postman v2 API uses API keys and static IP whitelisting to authenticate incoming requests from your server.
+The Postman v2 API uses [API keys](../campaigns-and-messages/campaign-settings.md#api-keys) and static [IP whitelisting](../campaigns-and-messages/campaign-settings.md#ip-address-whitelisting) to authenticate incoming requests from your server.
 
 Your API keys carry many privileges, so be sure to keep them secure. Don't share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth.
 
 Authentication to the API is performed with [HTTP Bearer Auth](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#authentication\_schemes).&#x20;
+
+{% hint style="info" %}
+You will first need to [Create Campaign](../campaigns-and-messages/create-campaign.md) before you can generate your `campaignId`
+{% endhint %}
 
 {% code title="An example curl request:" overflow="wrap" %}
 ```sh

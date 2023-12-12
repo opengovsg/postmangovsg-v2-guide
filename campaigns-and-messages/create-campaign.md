@@ -11,9 +11,9 @@ Users with no `.gov.sg` email address are **not allowed** to create campaigns.&#
 
 In order to obtain your API keys for system integration, you will need to&#x20;
 
-1. Create Campaign
-2. [Whitelist your IP address](settings-ip-address-and-api-keys.md#ip-address-whitelisting)
-3. [Generate your API keys](settings-ip-address-and-api-keys.md#api-keys)
+1. Create Campaign and obtain a Campaign ID
+2. [Whitelist your IP address](campaign-settings.md#ip-address-whitelisting)
+3. [Generate your API keys](campaign-settings.md#api-keys)
 
 ### Available channels for campaign creation
 

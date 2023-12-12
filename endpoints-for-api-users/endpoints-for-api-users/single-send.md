@@ -4,9 +4,11 @@ The keys within the values object will vary depending on the campaign’s templa
 
 
 
+The response on whether the message was created will come in immediately. However, you will need to query `Retrieve message endpoint` to get the message `latestStatus`.
+
 {% code title="Endpoint #1" overflow="wrap" %}
 ```
-POST /campaigns/:campaignId/messages
+.POST /campaigns/:campaignId/messages
 ```
 {% endcode %}
 

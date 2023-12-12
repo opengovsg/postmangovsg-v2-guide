@@ -1,6 +1,10 @@
-# Settings (IP address and API keys)
+---
+description: How do I whitelist my IP address and obtain my API keys?
+---
 
-You will be able to obtain your campaign API keys and whitelist your IP address under `Settings`  - `Integrations`. This part will be accessible after you have created and saved your campaign.&#x20;
+# Campaign Settings
+
+You will be able to obtain your campaign API keys and whitelist your IP address from your campaign's `settings` page, under the `integrations` tab. This part will be accessible after you have [created](create-campaign.md) and saved your campaign.&#x20;
 
 ### IP address whitelisting
 

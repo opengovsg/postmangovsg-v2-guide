@@ -1,5 +1,21 @@
 # Create Message
 
+## Sample Message&#x20;
+
+This is how your message will look like.
+
+{% hint style="info" %}
+If you have more than 1 official email address belonging to different agencies, ensure that you have logged in with the correct email address.&#x20;
+
+
+
+If you need to change the agency in the `Header`, please contact us with your use case.&#x20;
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-12-12 at 5.30.32 PM.png" alt=""><figcaption></figcaption></figure>
+
+## Types of Message
+
 Postman offers 2 types of template options for API users
 
 ### Option 1 - Simple messaging (Admin portal users and API users)
@@ -23,7 +39,7 @@ If you are sending out messages in other languages, you can select the correct `
    * As a user, you will be required to input the correct language text into the message body field.
    * eg. If you select Malay as your `language`, you should input your message **in Malay** into the message body field; messages will not be translated for you.&#x20;
 2. SMS Footer
-   * By selecting the language you want, this changes the SMS Footer of each message to the language selected.
+   * The SMS Footer of each message changes with the `language` selected.
    * eg. If you select Malay as your `language,` the SMS footer will change to Malay.
 
 #### Request Body example&#x20;

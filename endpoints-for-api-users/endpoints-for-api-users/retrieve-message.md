@@ -2,7 +2,7 @@
 
 Retrieves a single message and its delivery status.
 
-We currently do not support pushing webhooks to your server when the status of a message changes.
+We currently do not support pushing delivery status to your server via webhooks when the status of a message changes.
 
 {% code title="Endpoint #2" overflow="wrap" %}
 ```sh

@@ -5,6 +5,13 @@
 * [🤖 About Postman v2](README.md)
 * [Postman v2 SMS API user documentation](postman-v2-api-docs/postman-v2-sms-api-user-documentation.md)
 
+## Campaigns and Messages
+
+* [Logging into Postman v2](campaigns-and-messages/logging-into-postman-v2.md)
+* [Create Campaign](campaigns-and-messages/create-campaign.md)
+* [Create Message](campaigns-and-messages/create-message.md)
+* [Campaign Settings](campaigns-and-messages/campaign-settings.md)
+
 ## General notes for API users
 
 * [Overview](general-notes-for-api-users/overview.md)
@@ -12,13 +19,6 @@
 * [Errors](general-notes-for-api-users/errors.md)
 * [Pagination](general-notes-for-api-users/pagination.md)
 * [Rate Limits](general-notes-for-api-users/rate-limits.md)
-
-## Campaigns and Messages
-
-* [Logging into Postman v2](campaigns-and-messages/logging-into-postman-v2.md)
-* [Create Campaign](campaigns-and-messages/create-campaign.md)
-* [Create Message](campaigns-and-messages/create-message.md)
-* [Settings (IP address and API keys)](campaigns-and-messages/settings-ip-address-and-api-keys.md)
 
 ## Endpoints for API users
 
