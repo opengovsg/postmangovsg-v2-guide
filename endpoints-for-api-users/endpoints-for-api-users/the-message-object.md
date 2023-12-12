@@ -25,19 +25,19 @@ Message identifier - this can be used to retrieve a single message and its deliv
 
 ***
 
-**recipient** string (Mandatory)
+**recipient** string (Mandatory field)
 
 For messages sent through the `sms` channel, the recipient will be the mobile phone number of the recipient, prefixed by `+` and country code.
 
 ***
 
-**language** string (Mandatory)
+**language** string (Mandatory field)
 
 This is the language of the message template used to send this message. One of `english`, `chinese`, `malay`, or `tamil`.
 
 ***
 
-**values** object (Mandatory)
+**values** object (Mandatory field)
 
 The values that were inserted into the message template and form the complete message. The keys within `values` will vary depending on the campaign’s template parameters.
 

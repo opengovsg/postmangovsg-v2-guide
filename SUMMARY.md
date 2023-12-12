@@ -22,13 +22,20 @@
 
 ## Endpoints for API users
 
-* [Endpoints for API users](endpoints-for-api-users/endpoints-for-api-users.md)
-* [The message object](endpoints-for-api-users/the-message-object.md)
-* [Single Send](endpoints-for-api-users/single-send.md)
-* [Retrieve Message](endpoints-for-api-users/retrieve-message.md)
-* [Bulk Send](endpoints-for-api-users/bulk-send.md)
-* [Retrieve Batch](endpoints-for-api-users/retrieve-batch.md)
+* [Endpoints for API users](endpoints-for-api-users/endpoints-for-api-users/README.md)
+* [The message object](endpoints-for-api-users/endpoints-for-api-users/the-message-object.md)
+* [Single Send](endpoints-for-api-users/endpoints-for-api-users/single-send.md)
+* [Retrieve Message](endpoints-for-api-users/endpoints-for-api-users/retrieve-message.md)
+* [Bulk Send](endpoints-for-api-users/endpoints-for-api-users/bulk-send.md)
+* [Retrieve Batch](endpoints-for-api-users/endpoints-for-api-users/retrieve-batch.md)
 
 ## SMS API FAQ
 
 * [Postman v2 SMS API FAQ](sms-api-faq/postman-v2-sms-api-faq.md)
+
+## SFTP
+
+* [SFTP Integration](sftp/sftp-integration.md)
+* [Connecting to the SFTP server](sftp/connecting-to-the-sftp-server.md)
+* [Sending messages via SFTP](sftp/sending-messages-via-sftp.md)
+* [Checking whether sending via SFTP is successful](sftp/checking-whether-sending-via-sftp-is-successful.md)
