@@ -2,7 +2,7 @@
 description: How do I start creating a campaign?
 ---
 
-# Create Campaign
+# 📢 Create Campaign
 
 {% hint style="warning" %}
 Campaign creators **must** log in with their `.gov.sg` email address. \

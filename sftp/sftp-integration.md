@@ -1,4 +1,4 @@
-# SFTP Integration
+# 📂 SFTP Integration
 
 SFTP integration for campaigns is exclusively available on an opt-in basis and is not accessible through the admin portal.&#x20;
 
