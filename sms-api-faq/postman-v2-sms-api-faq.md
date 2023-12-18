@@ -1,7 +1,7 @@
 ---
 description: >-
   We are currently updating this page, please check back periodically for new
-  questions and updates. Last updated on 15 Dec 2023.
+  questions and updates. Last updated on 18 Dec 2023.
 ---
 
 # ❓ Postman v2 SMS API FAQ
@@ -148,7 +148,7 @@ description: >-
 
 25. **If consolidating all content into one 'message' parameter is allowed, what is the maximum character limit for this parameter?**
 
-    * 800 Characters
+    * \[Updated 18 Dec] 600 Characters
 
 
 26. **For `LatestStatus` field, how long do we need to wait before message is sent? how long to wait before we know if it was success or failure?**
