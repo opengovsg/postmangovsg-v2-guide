@@ -8,7 +8,7 @@ The response on whether the message was created will come in immediately. Howeve
 
 {% code title="Endpoint #1" overflow="wrap" %}
 ```
-.POST /campaigns/:campaignId/messages
+POST /campaigns/:campaignId/messages
 ```
 {% endcode %}
 
