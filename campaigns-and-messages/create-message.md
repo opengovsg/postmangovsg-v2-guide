@@ -4,31 +4,35 @@
 
 This is how your message will look like.
 
-{% hint style="info" %}
-If you have more than 1 official email address belonging to different agencies, ensure that you have logged in with the correct email address.&#x20;
-
-
-
-If you need to change the agency in the `Header`, please contact us with your use case.&#x20;
-{% endhint %}
-
 <figure><img src="../.gitbook/assets/Screenshot 2023-12-12 at 5.30.32 PM.png" alt=""><figcaption></figcaption></figure>
 
-## Types of Message
+**Header**
 
-Postman offers 2 types of template options for API users
+The `Header` corresponds to the email account that you have logged into Postman with.
 
-### Option 1 - Simple messaging (Admin portal users and API users)
+{% hint style="info" %}
+If you have more than 1 official email address belonging to different agencies, ensure that you have [logged in with the correct email address](logging-into-postman-v2.md#singpass-login).&#x20;
+{% endhint %}
 
-This option is selected when you turn on the `simple messaging` toggle.
+<div align="left">
 
-It allows you to create your own message in Postman using an editor. You can use simple messaging to send messages via the Postman admin portal or Postman API. &#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2023-12-20 at 2.57.15 PM.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+If you need to change the agency in the `Header`, please contact us with your use case.
+
+eg. you are helping to send messages on behalf of another agency.
+
+## Create campaign flow
+
+This flow allows you to create your own message in Postman using an editor and can be used by both admin portal and API users.
 
 #### Variables
 
 You will be able to create multiple `{{variables}}`. You can then input the values of each `{{variable}}`when you send the message from the admin portal or via API.&#x20;
 
-<figure><img src="../.gitbook/assets/Option 1 (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 3_ Empty state - Gov.sg selected.png" alt=""><figcaption></figcaption></figure>
 
 #### Language tab
 
@@ -44,6 +48,7 @@ If you are sending out messages in other languages, you can select the correct `
 
 #### Request Body example&#x20;
 
+{% code title="Example Request Body" %}
 ```json
 {
     "recipient": "+6599999999",
@@ -58,54 +63,50 @@ If you are sending out messages in other languages, you can select the correct `
     },
 }
 ```
+{% endcode %}
 
 
 
-### Option 2 - Advanced messaging (API Users only)
+**CSV example for bulk send**
 
-{% hint style="warning" %}
-This feature should only be used by **advanced users** who will be constructing their messages from their own systems and not on the Postman admin portal.&#x20;
+{% code title="Example CSV for bulk send" %}
+```csv
+recipient,language,name,clinic,date,time,callback_link
++6599999999,ENGLISH,John Doe,Example Clinic,11 Dec 2023,11:30 am,https://examplelink.gov.sg
+```
+{% endcode %}
 
+### **API users with own system to create campaigns**
 
+If you are an API user that
 
-This option will cause the campaign to **lose its ability to send messages via the Postman admin portal.**
-{% endhint %}
+* manages templates within your own system
+* use Postman solely for sending out the full text of your message
 
-This option is selected when you turn off the `simple messaging` toggle.
+you may create a single variable, `{{body}}`, and insert the message into the `{{body}}` variable.
 
-#### Variables
+<figure><img src="../.gitbook/assets/Frame 12.png" alt=""><figcaption></figcaption></figure>
 
-You can only create messages with 1 fixed variable, `{{body}}`.&#x20;
+**Request Body example - single variable `{{body}}`**
 
-<figure><img src="../.gitbook/assets/Option 2.png" alt=""><figcaption></figcaption></figure>
-
-#### Language
-
-1. Message Content
-   * For API users, the `language` attribute will not affect your message content.
-2. SMS Footer
-   * The `language` attribute will only affect the SMS Footer. The footer will change into the `language` selected.&#x20;
-
-#### Examples
-
-Request Body example
-
-```json
-// Example Request Body for single send message
+{% code title="Example Request body" %}
+```
 {
     "recipient": "+6599999999",
     "language": "english",
     "values": {
-        // The following values are values for the parameters in the example template
+    // The following values are values for the parameters in the example template
         "body": "Fill in your system constructed message here"
     },
 }
 ```
+{% endcode %}
 
-CSV example
+**CSV example for bulk send -  single variable `{{body}}`**
 
-<pre class="language-csv"><code class="lang-csv">// Example CSV for bulk send
-
-<strong>recipient,language,body
-</strong>+6599999999,ENGLISH,Fill in your system constructed message here
-</code></pre>
+{% code title="Example CSV for bulk send" %}
+```
+recipient,language,body
++6599999999,english,Fill in your system constructed message here
+```
+{% endcode %}

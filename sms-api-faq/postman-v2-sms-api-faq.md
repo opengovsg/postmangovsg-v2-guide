@@ -16,8 +16,6 @@ description: >-
 2. **Currently, we do API post with long SMS text content. Our SMS vendor will automatically split the message into several SMS messages to the end user. Is Postman the same?**
    * For long message content, it will be combined and will appear as a long message to the user.
 
-##
-
 ## API keys generation and IP Address whitelisting
 
 1.  **How can I obtain my API keys earlier for testing?**

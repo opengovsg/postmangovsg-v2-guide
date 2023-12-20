@@ -15,3 +15,13 @@ Vendors may request for access to Postman v2 to **view** campaigns
 
 Please request for access from a government officer.
 {% endhint %}
+
+#### **Singpass login**
+
+If you have more than 1 official `gov.sg` email address belonging to different agencies, you will be able to select which agency you wish to log in with.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/choose account (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
