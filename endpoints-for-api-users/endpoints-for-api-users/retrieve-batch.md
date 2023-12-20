@@ -8,7 +8,7 @@ Retrieves messages and their delivery statuses given a batch ID. Please refer to
 
 You can specify the number of messages to return per page using the `limit` query parameter. The minimum value is 1, and the maximum value is 1000.
 
-#### `after` string (Mandatory)
+#### `after` string (Optional)
 
 Find messages after the cursorId
 
