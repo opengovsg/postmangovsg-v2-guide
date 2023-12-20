@@ -76,12 +76,12 @@ recipient,language,name,clinic,date,time,callback_link
 ```
 {% endcode %}
 
-### **API users with own system to create campaigns**
+### **A**PI users who do not want to manage your message templates within Postman
 
 If you are an API user that
 
-* manages templates within your own system
-* use Postman solely for sending out the full text of your message
+* manages message templates within your own system
+* uses Postman solely for sending out the full text of your message
 
 you may create a single variable, `{{body}}`, and insert the message into the `{{body}}` variable.
 

@@ -4,6 +4,7 @@
 
 * [🤖 About Postman v2](README.md)
 * [Postman v2 SMS API user documentation](postman-v2-api-docs/postman-v2-sms-api-user-documentation.md)
+* [⏰ API Documents latest updates](postman-v2-api-docs/api-documents-latest-updates.md)
 
 ## Campaigns and Messages
 

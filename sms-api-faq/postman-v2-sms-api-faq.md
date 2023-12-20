@@ -69,7 +69,7 @@ description: >-
 10. **Can we not setup any customised campaign - i.e. we can setup the API keys, IP whitelisting and starting using the Postman API to send out SMSes?**
 
     * Not possible as the API keys are tied to the campaign and can only be generated after a campaign is created.
-    * In such cases, we recommend selecting “[Option 2 - Advanced Messaging (API users only)](https://api-docs.postman.gov.sg/campaigns-and-messages/create-message#option-2-advanced-messaging-api-users-only)” as this allows you to create a campaign with only 1 variable - `{{body}}`. You can then input any message body you wish from your own system into the `{{body}}` variable.
+    * In such cases, we recommend creating a campaign [with only 1 variable - `{{body}}`](../campaigns-and-messages/create-message.md#api-users-who-do-not-want-to-manage-your-message-templates-within-postman). You can then input any message body you wish from your own system into the `{{body}}` variable.
 
 
 11. **How do we know what is the `campaignID` ?**
