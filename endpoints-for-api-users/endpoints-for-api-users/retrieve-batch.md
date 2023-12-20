@@ -2,6 +2,12 @@
 
 Retrieves messages and their delivery statuses given a batch ID. Please refer to this table in [possible message statuses](the-message-object.md#lateststatus-string) and what they mean on what each message status means.
 
+{% code title="Endpoint #4" %}
+```sh
+GET /campaigns/:campaignId/bulk/messages/:batchId
+```
+{% endcode %}
+
 ### Supported Query Parameters
 
 #### `limit` string (Mandatory)
@@ -21,12 +27,6 @@ Find messages before the cursorId
 This supports searching by recipient phone number only.&#x20;
 
 It is a substring match, eg. a "11" would match with "91122233"
-
-{% code title="Endpoint #4" %}
-```sh
-GET /campaigns/:campaignId/bulk/messages/:batchId
-```
-{% endcode %}
 
 {% code title="Example response body" overflow="wrap" %}
 ```json
