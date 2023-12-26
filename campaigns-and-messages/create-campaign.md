@@ -17,12 +17,12 @@ In order to obtain your API keys for system integration, you will need to&#x20;
 
 ### Available channels for campaign creation
 
-Postman has 2 types of campaign channels available - Gov.sg SMS and Customised SMS
+Postman has 2 types of campaign channels available - **Member of Public** and **Internal Staff**
 
-<figure><img src="../.gitbook/assets/Frame 8 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 2_ Gov.sg selected.png" alt=""><figcaption></figcaption></figure>
 
-1. Gov.sg SMS: To send out messages with the `Gov.sg` Sender ID
-2. Customised SMS - to send out with your own sender ID
-   * You will need to provide your own Twilio credentials if you choose the `Customised SMS` option
+1. Member of Public: To send out messages to MOPs
+2. Internal Staff - to send out with your own sender ID
+   * You will need to provide your own Twilio credentials if you choose the `Internal Staff` option
 
 ###

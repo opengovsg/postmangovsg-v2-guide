@@ -85,7 +85,7 @@ If you are an API user that
 
 you may create a single variable, `{{body}}`, and insert the message into the `{{body}}` variable.
 
-<figure><img src="../.gitbook/assets/{{body}} (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame 12 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Request Body example - single variable `{{body}}`**
 

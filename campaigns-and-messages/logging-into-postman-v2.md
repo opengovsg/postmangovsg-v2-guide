@@ -22,6 +22,6 @@ If you have more than 1 official `gov.sg` email address belonging to different a
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/choose account (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Options.png" alt=""><figcaption></figcaption></figure>
 
 </div>
