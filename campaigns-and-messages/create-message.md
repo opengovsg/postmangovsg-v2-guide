@@ -39,12 +39,12 @@ You will be able to create multiple `{{variables}}`. You can then input the valu
 If you are sending out messages in other languages, you can select the correct `language` tab before you key in your message content.&#x20;
 
 1. Message Content
-   - Content in the message body field of each `language` is **not automatically translated.**
-   - As a user, you will be required to input the correct language text into the message body field.
-   - eg. If you select Malay as your `language`, you should input your message **in Malay** into the message body field; messages will not be translated for you.&#x20;
+   * Content in the message body field of each `language` is **not automatically translated.**
+   * As a user, you will be required to input the correct language text into the message body field.
+   * eg. If you select Malay as your `language`, you should input your message **in Malay** into the message body field; messages will not be translated for you.&#x20;
 2. SMS Footer
-   - The SMS Footer of each message changes with the `language` selected.
-   - eg. If you select Malay as your `language,` the SMS footer will change to Malay.
+   * The SMS Footer of each message changes with the `language` selected.
+   * eg. If you select Malay as your `language,` the SMS footer will change to Malay.
 
 #### Request Body example&#x20;
 
@@ -52,16 +52,16 @@ If you are sending out messages in other languages, you can select the correct `
 
 ```json
 {
-  "recipient": "6599999999",
-  "language": "english",
-  "values": {
-    // The following values are values for the parameters in the example template
-    "name": "John Doe",
-    "clinic": "Example Clinic",
-    "date": "11 Dec 2023",
-    "time": "11:30 am",
-    "callback_link": "https://examplelink.gov.sg"
-  }
+    "recipient": "6599999999",
+    "language": "english",
+    "values": {
+        // The following values are values for the parameters in the example template
+        "name": "John Doe",
+        "clinic": "Example Clinic",
+        "date": "11 Dec 2023",
+        "time": "11:30 am",
+        "callback_link": "https://examplelink.gov.sg"
+    }
 }
 ```
 
@@ -82,8 +82,8 @@ recipient,language,name,clinic,date,time,callback_link
 
 If you are an API user that
 
-- manages message templates within your own system
-- uses Postman solely for sending out the full text of your message
+* manages message templates within your own system
+* uses Postman solely for sending out the full text of your message
 
 you may create a single variable, `{{body}}`, and insert the message into the `{{body}}` variable.
 

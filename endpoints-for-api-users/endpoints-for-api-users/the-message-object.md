@@ -17,26 +17,26 @@
 
 ### Attributes
 
----
+***
 
 **id** string
 
 Message identifier - this can be used to retrieve a single message and its delivery status ([Retrieve message](retrieve-message.md)).
 
----
+***
 
 **recipient** string (Mandatory field)
 
 For messages sent through the `sms` channel, the recipient will be the mobile phone number of the recipient, prefixed by the country code but without the leading `+`.
 For example, when sending to a Singaporean phone number, the value of recipient will be `6599999999`
 
----
+***
 
 **language** string (Mandatory field)
 
 This is the language of the message template used to send this message. One of `english`, `chinese`, `malay`, or `tamil`.
 
----
+***
 
 **values** object (Mandatory field)
 
@@ -46,7 +46,7 @@ In the example above, the message template that was used contained two parameter
 
 Avoid using `recipient` and `language` as keywords as they are mandatory fields in the request payload.&#x20;
 
----
+***
 
 #### **latestStatus** string
 
@@ -59,7 +59,7 @@ Possible message statuses and what they mean
 | `success` | The relevant messaging service provider has sent an update to Postman saying that the message has been delivered to the recipient.                                                                             |
 | `failure` | Message failed to send either due to an error in Postman or from the messaging service. More details in the error message.                                                                                     |
 
----
+***
 
 **error** string
 
