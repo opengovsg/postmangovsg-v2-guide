@@ -49,31 +49,33 @@ If you are sending out messages in other languages, you can select the correct `
 #### Request Body example&#x20;
 
 {% code title="Example Request Body" %}
+
 ```json
 {
-    "recipient": "+6599999999",
+    "recipient": "6599999999",
     "language": "english",
     "values": {
-    // The following values are values for the parameters in the example template
+        // The following values are values for the parameters in the example template
         "name": "John Doe",
         "clinic": "Example Clinic",
         "date": "11 Dec 2023",
         "time": "11:30 am",
-        "callback_link": "https://examplelink.gov.sg",
-    },
+        "callback_link": "https://examplelink.gov.sg"
+    }
 }
 ```
+
 {% endcode %}
-
-
 
 **CSV example for bulk send**
 
 {% code title="Example CSV for bulk send" %}
+
 ```csv
 recipient,language,name,clinic,date,time,callback_link
-+6599999999,ENGLISH,John Doe,Example Clinic,11 Dec 2023,11:30 am,https://examplelink.gov.sg
+6599999999,ENGLISH,John Doe,Example Clinic,11 Dec 2023,11:30 am,https://examplelink.gov.sg
 ```
+
 {% endcode %}
 
 ### **A**PI users who do not want to manage your message templates within Postman
@@ -90,9 +92,10 @@ you may create a single variable, `{{body}}`, and insert the message into the `{
 **Request Body example - single variable `{{body}}`**
 
 {% code title="Example Request body" %}
+
 ```
 {
-    "recipient": "+6599999999",
+    "recipient": "6599999999",
     "language": "english",
     "values": {
     // The following values are values for the parameters in the example template
@@ -100,13 +103,16 @@ you may create a single variable, `{{body}}`, and insert the message into the `{
     },
 }
 ```
+
 {% endcode %}
 
-**CSV example for bulk send -  single variable `{{body}}`**
+**CSV example for bulk send - single variable `{{body}}`**
 
 {% code title="Example CSV for bulk send" %}
+
 ```
 recipient,language,body
-+6599999999,english,Fill in your system constructed message here
+6599999999,english,Fill in your system constructed message here
 ```
+
 {% endcode %}

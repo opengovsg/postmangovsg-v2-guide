@@ -4,7 +4,7 @@
 //Example response
 {
   "id": "message_62a2a141-97f8-4fc8-82db-36f539228322",
-  "recipient": "+6599999999",
+  "recipient": "6599999999",
   "language": "english",
   "values": {
     "recipientName": "Emily Yeo",
@@ -27,7 +27,8 @@ Message identifier - this can be used to retrieve a single message and its deliv
 
 **recipient** string (Mandatory field)
 
-For messages sent through the `sms` channel, the recipient will be the mobile phone number of the recipient, prefixed by `+` and country code.
+For messages sent through the `sms` channel, the recipient will be the mobile phone number of the recipient, prefixed by the country code but without the leading `+`.
+For example, when sending to a Singaporean phone number, the value of recipient will be `6599999999`
 
 ***
 
