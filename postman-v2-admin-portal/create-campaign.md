@@ -15,6 +15,18 @@ In order to obtain your API keys for system integration, you will need to&#x20;
 2. [Whitelist your IP address](campaign-settings.md#ip-address-whitelisting)
 3. [Generate your API keys](campaign-settings.md#api-keys)
 
+## Home page
+
+To start creating campaigns, select `New Campaigns` on your home page
+
+<figure><img src="../.gitbook/assets/home_default.png" alt=""><figcaption></figcaption></figure>
+
+### Create Campaign
+
+You will be taken to the `Create Campaign` page and asked to name your campaign
+
+<figure><img src="../.gitbook/assets/create_name_campaign.png" alt=""><figcaption></figcaption></figure>
+
 ### Available channels for campaign creation
 
 Postman has 2 types of campaign channels available - **Member of Public** and **Internal Staff**
@@ -25,4 +37,12 @@ Postman has 2 types of campaign channels available - **Member of Public** and **
 2. Internal Staff - to send out with your own sender ID
    * You will need to provide your own Twilio credentials if you choose the `Internal Staff` option
 
-###
+### Campaign content
+
+You will be prompted to type out your message content.&#x20;
+
+Click here for more information regarding [\{{variables\}}](create-message.md#variables).
+
+Upon typing out your message content, you will then be prompted to add in your approving officer's email address, to ensure that campaigns created are approved.
+
+<figure><img src="../.gitbook/assets/create_message (1).png" alt=""><figcaption></figcaption></figure>

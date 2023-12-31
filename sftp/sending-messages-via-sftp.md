@@ -25,8 +25,8 @@ An example CSV file for the above template can be found below, along with an exp
 {% code title="Example CSV file" %}
 ```
 recipient,language,recipientName,topic
-+6599999999,english,Emily Yeo,passport application #12345F
-+6599999998,chinese,James Tan,passport application #67890A
+6599999999,english,Emily Yeo,passport application #12345F
+6599999998,chinese,James Tan,passport application #67890A
 ```
 {% endcode %}
 
@@ -36,7 +36,9 @@ recipient,language,recipientName,topic
 
 **recipient** string (Mandatory field)
 
-For messages sent through the `sms` channel, the recipient will be the mobile phone number of the recipient, prefixed by `+` and country code. International numbers are permitted.
+For messages sent through the `sms` channel, the recipient will be the mobile phone number of the recipient, together with the country code of the recipient without including `+` in front.&#x20;
+
+eg. `6591234567` is a recipient string for a Singapore (65) phone number (91234567)
 
 ***
 

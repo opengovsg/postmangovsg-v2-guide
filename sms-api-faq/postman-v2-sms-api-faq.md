@@ -31,7 +31,7 @@ description: >-
 
 3.  **Regarding Authentication - can we have more information on bearer auth? Are we going to call a token API to get API keys or it will be generated from Postman Admin Portal?**
 
-    * API keys are generated from the [Postman Admin Portal.](../campaigns-and-messages/create-campaign.md)
+    * API keys are generated from the [Postman Admin Portal.](../postman-v2-admin-portal/create-campaign.md)
 
 
 4.  **Does each agency get 1 API key for all systems or each system can request to get their separate unique API key?**
@@ -62,14 +62,14 @@ description: >-
 9.  **Are the creation of the templates/campaigns done through the Postman's web interface?**
 
     * There will be no templates within the new Postman.
-    * Instead, there will be `campaigns` that can be created, and this will be done through the Postman admin portal (Postman UI). More information from our [API documents here](../campaigns-and-messages/create-campaign.md).
+    * Instead, there will be `campaigns` that can be created, and this will be done through the Postman admin portal (Postman UI). More information from our [API documents here](../postman-v2-admin-portal/create-campaign.md).
     * Upon the creating of a new campaign, a `campaignID` will be generated.
 
 
 10. **Can we not setup any customised campaign - i.e. we can setup the API keys, IP whitelisting and starting using the Postman API to send out SMSes?**
 
     * Not possible as the API keys are tied to the campaign and can only be generated after a campaign is created.
-    * In such cases, we recommend creating a campaign [with only 1 variable - `{{body}}`](../campaigns-and-messages/create-message.md#api-users-who-do-not-want-to-manage-your-message-templates-within-postman). You can then input any message body you wish from your own system into the `{{body}}` variable.
+    * In such cases, we recommend creating a campaign [with only 1 variable - `{{body}}`](../postman-v2-admin-portal/create-message.md#api-users-who-do-not-want-to-manage-your-message-templates-within-postman). You can then input any message body you wish from your own system into the `{{body}}` variable.
 
 
 11. **How do we know what is the `campaignID` ?**

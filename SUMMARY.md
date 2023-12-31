@@ -6,12 +6,12 @@
 * [Postman v2 SMS API user documentation](postman-v2-api-docs/postman-v2-sms-api-user-documentation.md)
 * [⏰ API Documents latest updates](postman-v2-api-docs/api-documents-latest-updates.md)
 
-## Campaigns and Messages
+## Postman v2 Admin Portal
 
-* [Logging into Postman v2](campaigns-and-messages/logging-into-postman-v2.md)
-* [📢 Create Campaign](campaigns-and-messages/create-campaign.md)
-* [✏ Create Message](campaigns-and-messages/create-message.md)
-* [⚙ Campaign Settings](campaigns-and-messages/campaign-settings.md)
+* [Logging into Postman v2](postman-v2-admin-portal/logging-into-postman-v2.md)
+* [📢 Create Campaign](postman-v2-admin-portal/create-campaign.md)
+* [✏ Create Message](postman-v2-admin-portal/create-message.md)
+* [⚙ Campaign Settings](postman-v2-admin-portal/campaign-settings.md)
 
 ## General notes for API users
 
