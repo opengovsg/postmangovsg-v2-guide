@@ -14,7 +14,7 @@ You will not be able to send or retrieve a message in a campaign inaccessible to
 POST /campaigns/:campaignId/messages
 GET  /campaigns/:campaignId/messages/:messageId
 
-POST /campaigns/:campaignId/bulk/messages
-GET  /campaigns/:campaignId/bulk/messages/:batchId
+POST /campaigns/:campaignId/batch/messages
+GET  /campaigns/:campaignId/batch/messages/:batchId
 ```
 {% endcode %}

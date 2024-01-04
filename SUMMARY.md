@@ -27,7 +27,7 @@
 * [The message object](endpoints-for-api-users/endpoints-for-api-users/the-message-object.md)
 * [Single Send](endpoints-for-api-users/endpoints-for-api-users/single-send.md)
 * [Retrieve Message](endpoints-for-api-users/endpoints-for-api-users/retrieve-message.md)
-* [Bulk Send](endpoints-for-api-users/endpoints-for-api-users/bulk-send.md)
+* [Batch Send](endpoints-for-api-users/batch-send.md)
 * [Retrieve Batch](endpoints-for-api-users/endpoints-for-api-users/retrieve-batch.md)
 
 ## SFTP
