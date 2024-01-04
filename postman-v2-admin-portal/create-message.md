@@ -60,23 +60,6 @@ If you are sending out messages in other languages, you can select the correct `
     "recipient": "6599999999",
     "language": "english",
     "values": {
-    // The following values are values for the parameters in the example template
-        "name": "John Doe",
-        "clinic": "Example Clinic",
-        "date": "11 Dec 2023",
-        "time": "11:30 am",
-        "callback_link": "https://examplelink.gov.sg",
-    },
-}
-```
-{% endcode %}
-
-{% code title="Example Request Body" %}
-```json
-{
-    "recipient": "6599999999",
-    "language": "english",
-    "values": {
         // The following values are values for the parameters in the example template
         "name": "John Doe",
         "clinic": "Example Clinic",
@@ -88,16 +71,9 @@ If you are sending out messages in other languages, you can select the correct `
 ```
 {% endcode %}
 
-**CSV example for bulk send**
+**CSV example for batch send**
 
-{% code title="Example CSV for bulk send" %}
-```csv
-recipient,language,name,clinic,date,time,callback_link
-6599999999,ENGLISH,John Doe,Example Clinic,11 Dec 2023,11:30 am,https://examplelink.gov.sg
-```
-{% endcode %}
-
-{% code title="Example CSV for bulk send" %}
+{% code title="Example CSV for batch send" %}
 ```csv
 recipient,language,name,clinic,date,time,callback_link
 6599999999,ENGLISH,John Doe,Example Clinic,11 Dec 2023,11:30 am,https://examplelink.gov.sg
@@ -130,29 +106,9 @@ you may create a single variable, `{{body}}`, and insert the message into the `{
 ```
 {% endcode %}
 
-{% code title="Example Request body" %}
-```
-{
-    "recipient": "6599999999",
-    "language": "english",
-    "values": {
-    // The following values are values for the parameters in the example template
-        "body": "Fill in your system constructed message here"
-    },
-}
-```
-{% endcode %}
+**CSV example for batch send - single variable `{{body}}`**
 
-**CSV example for bulk send - single variable `{{body}}`**
-
-{% code title="Example CSV for bulk send" %}
-```
-recipient,language,body
-6599999999,english,Fill in your system constructed message here
-```
-{% endcode %}
-
-{% code title="Example CSV for bulk send" %}
+{% code title="Example CSV for batch send" %}
 ```
 recipient,language,body
 6599999999,english,Fill in your system constructed message here
