@@ -4,7 +4,7 @@ Retrieves messages and their delivery statuses given a batch ID. Please refer to
 
 {% code title="Endpoint #4" %}
 ```sh
-GET /campaigns/:campaignId/batch/messages/:batchId
+GET /campaigns/:campaignId/batch/:batchId/messages
 ```
 {% endcode %}
 
