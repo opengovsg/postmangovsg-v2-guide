@@ -6,6 +6,10 @@ description: >-
 
 # Logging into Postman v2
 
+{% hint style="warning" %}
+For Admin Portal users that **do not require** any system integration should not be testing out with our test platform. You will only be able to test out the site in Feb 2024.&#x20;
+{% endhint %}
+
 ### Government Officers
 
 There are 2 methods of of logging into Postman -  Singpass or your `.gov.sg` email address
@@ -28,7 +32,11 @@ If you selected email login, you will need to key in an OTP that is sent to your
 
 #### **Singpass login**
 
-If you have selected Singpass login, you will be taken to the Singpass login page.&#x20;
+{% hint style="info" %}
+Singpass login is only available for users with a`.gov.sg` email address and have their details stored within [POCDEX](https://docs.id.gov.sg/faq-users) by their HR. If you are unable to login via SingPass, please switch to [Email login](logging-into-postman-v2.md#email-login) instead.&#x20;
+{% endhint %}
+
+If you have selected SingPass login, you will be taken to the SingPass login page.&#x20;
 
 For officers with more than 1 official `gov.sg` email address belonging to different agencies, you will be able to select which agency you wish to log in with.
 
