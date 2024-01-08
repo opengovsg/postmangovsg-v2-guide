@@ -1,7 +1,7 @@
 ---
 description: >-
-  We are currently updating this page, please check back periodically for new
-  questions and updates. Last updated on 18 Dec 2023.
+  We update this page regularly, please refer to API Documents latest updates
+  for the last udpated date.
 ---
 
 # ❓ Postman v2 SMS API FAQ

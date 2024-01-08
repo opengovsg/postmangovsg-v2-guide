@@ -23,12 +23,12 @@
 
 ## Endpoints for API users
 
-* [📞 Endpoints for API users](endpoints-for-api-users/endpoints-for-api-users/README.md)
-* [The message object](endpoints-for-api-users/endpoints-for-api-users/the-message-object.md)
-* [Single Send](endpoints-for-api-users/endpoints-for-api-users/single-send.md)
-* [Retrieve Message](endpoints-for-api-users/endpoints-for-api-users/retrieve-message.md)
+* [📞 Endpoints for API users](endpoints-for-api-users/endpoints-for-api-users.md)
+* [The message object](endpoints-for-api-users/the-message-object.md)
+* [Single Send](endpoints-for-api-users/single-send.md)
+* [Retrieve Message](endpoints-for-api-users/retrieve-message.md)
 * [Batch Send](endpoints-for-api-users/batch-send.md)
-* [Retrieve Batch](endpoints-for-api-users/endpoints-for-api-users/retrieve-batch.md)
+* [Retrieve Batch](endpoints-for-api-users/retrieve-batch.md)
 
 ## SFTP
 

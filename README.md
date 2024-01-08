@@ -9,8 +9,18 @@ The Postman team is currently rebuilding Postman (v2) for sending out SMS-es, wh
 ## Test Platform
 
 {% hint style="info" %}
-Our test platform is undergoing migration, please check back on **8 Jan 2024** for the release of our site URL here.&#x20;
+The test site is **only** meant for API users.\
+\
+If you are an admin portal user that does not require any system integration, you **should not** be testing our platform.\
+\
+Admin Portal users can only start testing in **Feb 2024**, more details will be released in due course.
 {% endhint %}
+
+Our test platform is now live, you may access it through this link [https://test.sgc.gov.sg/](https://test.sgc.gov.sg/)
+
+#### Test Environment
+
+<table><thead><tr><th width="196">Type</th><th width="267">Base URL</th><th>Remarks</th></tr></thead><tbody><tr><td>Postman API </td><td><a href="https://test.sgc.gov.sg/api/v2">https://test.sgc.gov.sg</a>/</td><td></td></tr><tr><td>Postman Admin Portal</td><td><a href="https://test.sgc.gov.sg/">https://test.sgc.gov.sg/</a></td><td></td></tr></tbody></table>
 
 ## Inquiries and FAQ
 
