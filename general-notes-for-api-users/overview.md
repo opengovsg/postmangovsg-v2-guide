@@ -12,7 +12,7 @@ https://<POSTMAN_V2_API_BASE_URL>/api/v2
 
 #### Test Environment Base URL
 
-<table><thead><tr><th width="196">Type</th><th width="267">Base URL</th><th>Remarks</th></tr></thead><tbody><tr><td>Postman API </td><td><a href="https://test.sgc.gov.sg/api/v2">https://test.sgc.gov.sg</a></td><td></td></tr><tr><td>Postman Admin Portal</td><td><a href="https://test.sgc.gov.sg/api/v2">https://test.sgc.gov.sg</a></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="196">Type</th><th width="267">Base URL</th><th>Remarks</th></tr></thead><tbody><tr><td>Postman API </td><td><a href="https://test.postman.gov.sg">https://test.postman.gov.sg</a></td><td></td></tr><tr><td>Postman Admin Portal</td><td><a href="https://test.postman.gov.sg">https://test.postman.gov.sg</a></td><td></td></tr></tbody></table>
 
 #### Production Environment Base URL
 

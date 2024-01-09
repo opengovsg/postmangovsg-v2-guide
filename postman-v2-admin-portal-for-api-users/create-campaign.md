@@ -43,6 +43,4 @@ You will be prompted to type out your message content.&#x20;
 
 Click here for more information regarding [\{{variables\}}](create-message.md#variables).
 
-Upon typing out your message content, you will then be prompted to add in your approving officer's email address, to ensure that campaigns created are approved.
-
-<figure><img src="../.gitbook/assets/create_message (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/create_message (4).png" alt=""><figcaption></figcaption></figure>

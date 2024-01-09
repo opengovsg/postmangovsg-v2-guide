@@ -1,6 +1,6 @@
 # ✏ Create Message
 
-## Sample Message
+Sample Message
 
 This is how your message will look like.
 
@@ -32,7 +32,7 @@ This flow allows you to create your own message in Postman using an editor and c
 
 You will be able to create multiple `{{variables}}`. You can then input the values of each `{{variable}}`when you send the message from the admin portal or via API.
 
-<figure><img src="../.gitbook/assets/Step 3_ Empty state - Gov.sg selected.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/create_message (3).png" alt=""><figcaption></figcaption></figure>
 
 Variables have to fulfil the following in order to be successfully created
 
@@ -89,7 +89,7 @@ If you are an API user that
 
 you may create a single variable, `{{body}}`, and insert the message into the `{{body}}` variable.
 
-<figure><img src="../.gitbook/assets/Frame 12 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-01-09 at 3.19.35 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 **Request Body example - single variable `{{body}}`**
 
