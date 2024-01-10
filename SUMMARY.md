@@ -5,6 +5,7 @@
 * [🤖 About Postman v2](README.md)
 * [Postman v2 SMS API user documentation](postman-v2-api-docs/postman-v2-sms-api-user-documentation.md)
 * [⏰ API Documents latest updates](postman-v2-api-docs/api-documents-latest-updates.md)
+* [🏋 Important dates](postman-v2-api-docs/important-dates.md)
 
 ## Postman v2 Admin Portal for API users
 
