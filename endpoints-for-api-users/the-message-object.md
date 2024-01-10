@@ -7,7 +7,7 @@
   "recipient": "6599999999",
   "language": "english",
   "values": {
-    "recipientName": "Emily Yeo",
+    "recipient_name": "Emily Yeo",
     "topic": "passport application #12345F"
   },
   "latestStatus": "created",
@@ -43,7 +43,7 @@ This is the language of the message template used to send this message. One of `
 
 The values that were inserted into the message template and form the complete message. The keys within `values` will vary depending on the campaign’s template parameters.
 
-In the example above, the message template that was used contained two parameters: `recipientName` and `topic`.
+In the example above, the message template that was used contained two parameters: `recipient_name` and `topic`.
 
 Avoid using `recipient` and `language` as keywords as they are mandatory fields in the request payload.
 

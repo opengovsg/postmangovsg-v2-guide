@@ -36,7 +36,7 @@ It is a substring match, eg. a "11" would match with "91122233"
       "id": "message_62a2a141-97f8-4fc8-82db-36f539228322",
       "recipient": "6599999999",
       "values": {
-        "recipientName": "Emily Yeo",
+        "recipient_name": "Emily Yeo",
         "topic": "passport application #12345F"
       },
       "language": "english",

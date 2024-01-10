@@ -6,7 +6,7 @@ You will need to prepare a CSV file where, in addition to recipient and language
 
 {% code title="Example CSV File" overflow="wrap" %}
 ```
-recipient,language,recipientName,topic
+recipient,language,recipient_name,topic
 6599999999,english,Emily Yeo,passport application #12345F
 6599999998,chinese,James Tan,passport application #67890A
 ```

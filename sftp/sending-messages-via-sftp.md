@@ -10,7 +10,7 @@ The examples below is based on the following campaign template:
 
 {% code title="Example campaign template" %}
 ```bash
-Dear {{recipientName}},
+Dear {{recipient_name}},
 
 This is to inform you that we have received your request for {{topic}}.
 
@@ -24,7 +24,7 @@ An example CSV file for the above template can be found below, along with an exp
 
 {% code title="Example CSV file" %}
 ```
-recipient,language,recipientName,topic
+recipient,language,recipient_name,topic
 6599999999,english,Emily Yeo,passport application #12345F
 6599999998,chinese,James Tan,passport application #67890A
 ```
@@ -50,7 +50,7 @@ This are the possible values `english`, `chinese`, `malay`, or `tamil`.
 
 ***
 
-recipientName string (Optional field - depending on your message template content)
+recipient\_name string (Optional field - depending on your message template content)
 
 ***
 

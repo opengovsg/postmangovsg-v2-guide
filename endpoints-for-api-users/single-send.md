@@ -5,42 +5,36 @@ The keys within the values object will vary depending on the campaign’s templa
 The response on whether the message was created will come in immediately. However, you will need to query `Retrieve message endpoint` to get the message `latestStatus`.
 
 {% code title="Endpoint #1" overflow="wrap" %}
-
 ```
 POST /campaigns/:campaignId/messages
 ```
-
 {% endcode %}
 
 {% code title="Example request body" overflow="wrap" %}
-
 ```json
 {
   "recipient": "6599999999",
   "language": "english",
   "values": {
     // The following values are values for the parameters in the example template
-    "recipientName": "Emily Yeo",
+    "recipient_name": "Emily Yeo",
     "topic": "passport application #12345F"
   }
 }
 ```
-
 {% endcode %}
 
 {% code title="Example response body" overflow="wrap" %}
-
 ```json
 {
   "id": "message_62a2a141-97f8-4fc8-82db-36f539228322",
   "recipient": "6599999999",
   "language": "english",
   "values": {
-    "recipientName": "Emily Yeo",
+    "recipient_name": "Emily Yeo",
     "topic": "passport application #12345F"
   },
   "latestStatus": "created"
 }
 ```
-
 {% endcode %}
