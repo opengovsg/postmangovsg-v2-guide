@@ -26,7 +26,7 @@ Our test platform is now live, you may access it through this link [https://test
 
 If you have any questions, please refer to our [FAQ page](sms-api-faq/postman-v2-sms-api-faq.md) for a list of frequently asked questions.&#x20;
 
-If your questions have not been answered, you may fill up our [Contact Us form](https://form.gov.sg/64a535b829d2650012a9938b) and our team will get back to you.
+If your questions have not been answered, you may fill up our [Contact Us](https://form.gov.sg/657025a2d2bd350012c82eb0) form and our team will get back to you.
 
 If you are a vendor with questions regarding our API documents, please indicate the contact details of the **government officer-in-charge and their agency email address** in your form response.&#x20;
 
