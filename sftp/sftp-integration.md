@@ -7,13 +7,7 @@ SFTP integration for campaigns is exclusively available on an opt-in basis and i
 
 
 
-Please provide the following details in the respective interest form:
-
-| Environment            | Form Link  |
-| ---------------------- | ---------- |
-| Test Environment       | tbc        |
-| Production Environment | tbc        |
-|                        |            |
+You would need to send us the following information:
 
 **SSH public key:** We will use this to verify their SSH private key when they attempt to connect to the SFTP server. Refer to the following guide for instructions on generating ssh keys: [SSH Key Generation Guide](https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/generate-ssh-key-pair.html#GUID-8B9E7FCB-CEA3-4FB3-BF1A-FD3406A2432F)
 
@@ -23,8 +17,20 @@ Please provide the following details in the respective interest form:
 
 **Notification Email:** The notification email we will use to send the result of the file upload to
 
+
+
 Once done, we will be providing you
 
 **Username:** Username to use for connecting to SFTP server . The username is your `campaignId`
 
-**SFTP server ip:** Two static IPs for connecting to the SFTP server (environment dependent)
+**SFTP Server domain:** Domain for connecting to the SFTP server (environment dependent)
+
+
+
+Please provide the following details in the respective interest form:
+
+| Environment            | Form Link  | SFTP Server Domain          |
+| ---------------------- | ---------- | --------------------------- |
+| Test Environment       | tbc        | staging.sftp.postman.gov.sg |
+| Production Environment | tbc        | sftp.postman.gov.sg         |
+|                        |            |                             |
