@@ -29,8 +29,8 @@ Once done, we will be providing you
 
 Please provide the following details in the respective interest form:
 
-| Environment            | Form Link  | SFTP Server Domain          |
-| ---------------------- | ---------- | --------------------------- |
-| Test Environment       | tbc        | staging.sftp.postman.gov.sg |
-| Production Environment | tbc        | sftp.postman.gov.sg         |
-|                        |            |                             |
+| Environment            | Form Link                                                                    | SFTP Server Domain          |
+| ---------------------- | ---------------------------------------------------------------------------- | --------------------------- |
+| Test Environment       | [https://go.gov.sg/sftp-interest-form](https://go.gov.sg/sftp-interest-form) | staging.sftp.postman.gov.sg |
+| Production Environment | [https://go.gov.sg/sftp-interest-form](https://go.gov.sg/sftp-interest-form) | sftp.postman.gov.sg         |
+|                        |                                                                              |                             |
