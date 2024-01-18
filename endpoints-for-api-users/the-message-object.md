@@ -49,6 +49,17 @@ Avoid using `recipient` and `language` as keywords as they are mandatory fields 
 
 ***
 
+**unsupported characters**
+
+This is the list of characters that are not supported by Postman and need to be excluded in the `values`.
+
+* All emojis
+* The following characters
+
+
+
+<table data-header-hidden><thead><tr><th width="160"></th><th width="40"></th><th width="40"></th><th width="40"></th><th width="40"></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Excluded characters</td><td>|</td><td>^</td><td>€</td><td>{</td><td>}</td><td>[</td><td>~</td><td>]</td><td>\</td></tr></tbody></table>
+
 #### **latestStatus** string
 
 Possible message statuses and what they mean

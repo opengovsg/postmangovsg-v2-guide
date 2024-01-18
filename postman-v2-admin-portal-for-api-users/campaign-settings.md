@@ -71,6 +71,13 @@ Integrations are where you can whitelist your IP addresses and generate your API
 
 Provide your IP address for whitelisting. You will be able to provide up to 10 IP addresses.
 
+Whitelist only
+
+* Static IP addresses
+* IP addresses that you are using to call the Postman API.
+
+Connect to a VPN before calling the Postman APIs.&#x20;
+
 <figure><img src="../.gitbook/assets/campaign_settings_with_ip.png" alt=""><figcaption></figcaption></figure>
 
 #### API Keys

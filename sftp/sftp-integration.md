@@ -7,7 +7,9 @@ SFTP integration for campaigns is exclusively available on an opt-in basis and i
 
 
 
-You would need to send us the following information:
+You would need to whitelist the 2 IP address mentioned below in your campaign.
+
+You would also need to send us the following information:
 
 **SSH public key:** We will use this to verify their SSH private key when they attempt to connect to the SFTP server. Refer to the following guide for instructions on generating ssh keys: [SSH Key Generation Guide](https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/generate-ssh-key-pair.html#GUID-8B9E7FCB-CEA3-4FB3-BF1A-FD3406A2432F)
 
@@ -29,8 +31,8 @@ Once done, we will be providing you
 
 Please provide the following details in the respective interest form:
 
-| Environment            | Form Link                                                                    | SFTP Server Domain          |
-| ---------------------- | ---------------------------------------------------------------------------- | --------------------------- |
-| Test Environment       | [https://go.gov.sg/sftp-interest-form](https://go.gov.sg/sftp-interest-form) | staging.sftp.postman.gov.sg |
-| Production Environment | [https://go.gov.sg/sftp-interest-form](https://go.gov.sg/sftp-interest-form) | sftp.postman.gov.sg         |
-|                        |                                                                              |                             |
+| Environment            | Form Link                                                                    | SFTP Server Domain          | IP Address to Whitelist                                                                                                                                                                                                                                                                                                      |
+| ---------------------- | ---------------------------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Test Environment       | [https://go.gov.sg/sftp-interest-form](https://go.gov.sg/sftp-interest-form) | staging.sftp.postman.gov.sg | [13.215.57.132](https://ap-southeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-southeast-1#ElasticIpDetails:AllocationId=eipalloc-0bd46db7062798ab6), [13.214.60.106](https://ap-southeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-southeast-1#ElasticIpDetails:AllocationId=eipalloc-085022cb640c29964) |
+| Production Environment | [https://go.gov.sg/sftp-interest-form](https://go.gov.sg/sftp-interest-form) | sftp.postman.gov.sg         | tbc                                                                                                                                                                                                                                                                                                                          |
+|                        |                                                                              |                             |                                                                                                                                                                                                                                                                                                                              |
