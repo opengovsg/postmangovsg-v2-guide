@@ -58,7 +58,7 @@ This is the list of characters that are not supported by Postman and need to be 
 
 
 
-<table data-header-hidden><thead><tr><th width="160"></th><th width="40"></th><th width="40"></th><th width="40"></th><th width="40"></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Excluded characters</td><td>|</td><td>^</td><td>€</td><td>{</td><td>}</td><td>[</td><td>~</td><td>]</td><td>\</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="160"></th><th width="40"></th><th width="40"></th><th width="40"></th><th width="40"></th><th width="40"></th><th width="40"></th><th width="40"></th><th width="40"></th><th></th></tr></thead><tbody><tr><td>Excluded characters</td><td>|</td><td>^</td><td>€</td><td>{</td><td>}</td><td>[</td><td>~</td><td>]</td><td>\</td></tr></tbody></table>
 
 #### **latestStatus** string
 

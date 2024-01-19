@@ -6,7 +6,7 @@ This is how your message will look like.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-12-12 at 5.30.32 PM.png" alt=""><figcaption></figcaption></figure>
 
-**Header**
+## **Header**
 
 The `Header` corresponds to the email account that you have logged into Postman with.
 
