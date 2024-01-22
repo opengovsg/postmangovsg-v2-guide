@@ -16,7 +16,7 @@ https://<POSTMAN_V2_API_BASE_URL>/api/v2
 
 #### Production Environment Base URL
 
-| Type                            | Base URL |                            |
-| ------------------------------- | -------- | -------------------------- |
-| Postman API Production Platform |          | To be released in May 2024 |
-| Postman Admin Platform          |          | To be released in May 2024 |
+| Type                            | Base URL |                              |
+| ------------------------------- | -------- | ---------------------------- |
+| Postman API Production Platform |          | To be released in April 2024 |
+| Postman Admin Platform          |          | To be released in April 2024 |
