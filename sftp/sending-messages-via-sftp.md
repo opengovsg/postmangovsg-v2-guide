@@ -66,8 +66,4 @@ Subsequently, you will need to upload this file using the following command:
 put <file to upload>
 ```
 
-Please be aware that our system **does not generate output files**. The result of a file upload will be communicated to you via email. Once your field has been processed by our system, we will rename the file and append `.processed` to the file name.
-
-Example:
-
-If a user uploaded a file named `test-campaign.csv` , once our system has processed the file, it will be renamed to `test-campaign.processed.csv`.
+Please be aware that our system **does not generate output files**. The result of a file upload will be communicated to you via email.
