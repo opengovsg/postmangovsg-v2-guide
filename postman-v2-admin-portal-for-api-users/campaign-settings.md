@@ -8,6 +8,10 @@ You will be able to obtain your campaign API keys and whitelist your IP address 
 
 Click on your campaign and the `settings` icon, this will open up your `settings` pop-up.
 
+{% hint style="info" %}
+Please ignore `TODO: Persist sender ID` under the `Sender ID` field.
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/campaign_settings_access.png" alt=""><figcaption></figcaption></figure>
 
 ### Settings - About&#x20;
@@ -19,13 +23,11 @@ You will be able to view the following details
 * Campaign Message
 * Download campaign logs
 
-<figure><img src="../.gitbook/assets/campaign_settings_about (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/campaign_settings_about (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Settings - Members
 
 There are 2 types of member access in Postman v2 - Admin and Member
-
-<figure><img src="../.gitbook/assets/campaign_settings_members.png" alt=""><figcaption></figcaption></figure>
 
 #### Admin
 
@@ -46,7 +48,7 @@ For agency officers without a `.gov.sg` email domain, you will need to get `.gov
 
 Admins can also change the access of users within their own campaigns
 
-<figure><img src="../.gitbook/assets/campaign_settings_member_types.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/campaign_settings_members.png" alt=""><figcaption></figcaption></figure>
 
 #### Members
 
@@ -78,7 +80,7 @@ Whitelist only
 
 Connect to a VPN before calling the Postman APIs.&#x20;
 
-<figure><img src="../.gitbook/assets/campaign_settings_with_ip.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/campaign_settings_with_ip (1).png" alt=""><figcaption></figcaption></figure>
 
 #### API Keys
 
@@ -93,5 +95,3 @@ One campaign can have up to 3 API keys.
 The API keys have no expiry.&#x20;
 
 If you need to obtain a new API key, you can simply delete the old key and generate a new key.&#x20;
-
-<figure><img src="../.gitbook/assets/Settings - Integrations expiry.png" alt=""><figcaption></figcaption></figure>

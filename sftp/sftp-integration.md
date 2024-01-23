@@ -3,7 +3,7 @@
 SFTP integration for campaigns is exclusively available on an opt-in basis and is not accessible through the admin portal.&#x20;
 
 * For questions related to SFTP, you may submit your inquiries [here](https://form.gov.sg/657025a2d2bd350012c82eb0).&#x20;
-* For agencies interested to use SFTP, this option is **not available** at the moment and the interest form will only be released in **Feb** **2024.**&#x20;
+* For agencies interested to use SFTP, forms links can be found at the bottom of this page.
 
 
 

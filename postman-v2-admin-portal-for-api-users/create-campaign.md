@@ -17,9 +17,13 @@ In order to obtain your API keys for system integration, you will need to&#x20;
 
 ## Home page
 
-To start creating campaigns, select `New Campaigns` on your home page
+To start creating campaigns, select  `+ Create campaigns` on your home page
 
-<figure><img src="../.gitbook/assets/home_default.png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+Please ignore `TODO: Persist sender ID` under the `Sender ID` field.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/home_create_campaign (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Create Campaign
 

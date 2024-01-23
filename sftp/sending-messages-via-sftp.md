@@ -5,7 +5,9 @@ To send messages in bulk, you must prepare a CSV file where each column, in addi
 The examples below is based on the following campaign template:
 
 {% hint style="info" %}
-**The campaign template is configured on the admin portal during campaign creation**
+**The campaign template is configured on the admin portal during campaign creation.**
+
+Please refer to [create message](../postman-v2-admin-portal-for-api-users/create-message.md) on more information on creating a message on the admin portal.
 {% endhint %}
 
 {% code title="Example campaign template" %}

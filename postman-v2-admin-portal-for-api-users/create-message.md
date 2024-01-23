@@ -10,17 +10,19 @@ This is how your message will look like.
 
 The `Header` corresponds to the email account that you have logged into Postman with.
 
+You may check on the email account that you've used to log into Postman by clicking on the avatar at the bottom right of the page. Refer to the image for more information
+
 {% hint style="info" %}
 If you have more than 1 official email address belonging to different agencies, ensure that you have [logged in with the correct email address](logging-into-postman-v2.md#singpass-login).
 {% endhint %}
 
-<div align="left">
+{% hint style="info" %}
+Please ignore `TODO: Persist sender ID` under the `Sender ID` field.
+{% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-12-20 at 2.57.15 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/home_email_account.png" alt=""><figcaption><p>Click on the avatar (the alphabet icon) to check for the email account used to log into Postman</p></figcaption></figure>
 
-</div>
-
-If you need to change the agency in the `Header`, please contact us with your use case.
+If you need to change the agency in the `Header`, please [contact us ](https://form.gov.sg/657025a2d2bd350012c82eb0)with your use case.
 
 eg. You are helping to send messages on behalf of another agency.
 
