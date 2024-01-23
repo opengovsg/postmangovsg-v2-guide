@@ -12,8 +12,6 @@ The `Header` corresponds to the email account that you have logged into Postman 
 
 You may check on the email account that you've used to log into Postman by clicking on the avatar at the bottom right of the page. Refer to the image for more information
 
-<figure><img src="../.gitbook/assets/home_email_account.png" alt=""><figcaption><p>Click on the avatar (bottom left) of page to check for the email address used to log into Postman</p></figcaption></figure>
-
 {% hint style="info" %}
 If you have more than 1 official email address belonging to different agencies, ensure that you have [logged in with the correct email address](logging-into-postman-v2.md#singpass-login).
 {% endhint %}
@@ -21,6 +19,8 @@ If you have more than 1 official email address belonging to different agencies, 
 {% hint style="info" %}
 Please ignore `TODO: Persist sender ID` under the `Sender ID` field.
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/home_email_account.png" alt=""><figcaption><p>Click on the avatar (bottom left) of page to check for the email address used to log into Postman</p></figcaption></figure>
 
 If you need to change the agency in the `Header`, please [contact us ](https://form.gov.sg/657025a2d2bd350012c82eb0)with your use case.
 
@@ -108,6 +108,21 @@ you may create a single variable, `{{body}}`, and insert the message into the `{
 ```
 {% endcode %}
 
+#### Request Body example - single variable `{{body}}` and line breaks
+
+{% code title="Example Request Body with line breaks" %}
+```
+{
+    "recipient": "6599999999",
+    "language": "english",
+    "values": {
+    // The following values are values for the parameters in the example template
+        "body": "Dear Amy \n\nYour appointment for VACCINATION is confirmed.\n\nPlease do not reply to this message."
+    },
+}
+```
+{% endcode %}
+
 **CSV example for batch send - single variable `{{body}}`**
 
 {% code title="Example CSV for batch send" %}
@@ -116,3 +131,18 @@ recipient,language,body
 6599999999,english,Fill in your system constructed message here
 ```
 {% endcode %}
+
+#### &#x20;CSV example - single variable `{{body}}` and line breaks
+
+{% code title="Example Request Body with line breaks" %}
+```
+recipient,language,body
+6591234567,english,Dear Amy 
+
+Your appointment for VACCINATION is confirmed.
+
+Please do not reply to this message.
+```
+{% endcode %}
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-01-23 at 6.27.49 PM.png" alt=""><figcaption><p>Example of a CSV file</p></figcaption></figure>
