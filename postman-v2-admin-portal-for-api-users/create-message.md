@@ -12,6 +12,8 @@ The `Header` corresponds to the email account that you have logged into Postman 
 
 You may check on the email account that you've used to log into Postman by clicking on the avatar at the bottom right of the page. Refer to the image for more information
 
+<figure><img src="../.gitbook/assets/home_email_account.png" alt=""><figcaption><p>Click on the avatar (bottom left) of page to check for the email address used to log into Postman</p></figcaption></figure>
+
 {% hint style="info" %}
 If you have more than 1 official email address belonging to different agencies, ensure that you have [logged in with the correct email address](logging-into-postman-v2.md#singpass-login).
 {% endhint %}
@@ -19,8 +21,6 @@ If you have more than 1 official email address belonging to different agencies, 
 {% hint style="info" %}
 Please ignore `TODO: Persist sender ID` under the `Sender ID` field.
 {% endhint %}
-
-<figure><img src="../.gitbook/assets/home_email_account.png" alt=""><figcaption><p>Click on the avatar (the alphabet icon) to check for the email account used to log into Postman</p></figcaption></figure>
 
 If you need to change the agency in the `Header`, please [contact us ](https://form.gov.sg/657025a2d2bd350012c82eb0)with your use case.
 
