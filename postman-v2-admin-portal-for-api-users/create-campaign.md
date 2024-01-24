@@ -45,11 +45,11 @@ Postman has 2 types of campaign channels available - **Member of Public** and **
 
 Postman will be ready for use from mid-April 2024.&#x20;
 
-Users will be able to use WOG Sender IDs that their agency have been registered with SGNIC thus far. The sender IDs will appear as options under the `Select temporary sender name` field.
+Users will be able to use WOG Sender IDs that their agencies registered with SGNIC thus far. The sender IDs will appear as options under the `Select temporary sender name` field.
 
 
 
-In the example below, the available sender IDs that the user's agency has registered are `Government Technolocy Agency` and `Open Government Products`. The user willl not be able to see other sender IDs registered by other agencies.&#x20;
+In the example below, the available sender IDs that the user's agency registered are `Government Technology Agency` and `Open Government Products`. The user will not be able to see other sender IDs registered by other agencies.&#x20;
 
 <figure><img src="../.gitbook/assets/Campaign_crete_temporary_sender_name.png" alt=""><figcaption><p>Available temporary sender IDs</p></figcaption></figure>
 
