@@ -31,26 +31,38 @@ It is a substring match, eg. a "11" would match with "91122233"
 {% code title="Example response body" overflow="wrap" %}
 ```json
 {
-  "data": [
-    {
-      "id": "message_62a2a141-97f8-4fc8-82db-36f539228322",
-      "recipient": "6599999999",
-      "values": {
-        "recipient_name": "Emily Yeo",
-        "topic": "passport application #12345F"
-      },
-      "language": "english",
-      "latestStatus": "success",
-      "error": ""
-    },
-    ...
-  ],
-  "pageData": {
-		"hasNextPage": false,
-		"hasPreviousPage": false,
-		"startCursor": "WyIyMDIzLTEwLTI0VDE3OjQwOjI1Ljk2OCswODowMCIsIm1lc3NhZ2VfM2E1MWI1ODctMzQ5OS00YTBmLTlkNGUtZTRlOWYzNWZkNmMxIl0=",
-		"endCursor": "WyIyMDIzLTEwLTI0VDE3OjQwOjI1Ljk2OCswODowMCIsIm1lc3NhZ2VfM2E1MWI1ODctMzQ5OS00YTBmLTlkNGUtZTRlOWYzNWZkNmMxIl0="
-	}
+    "data": [
+        {
+            "createdAt": "2024-01-29T17:47:51.392+08:00",
+            "updatedAt": "2024-01-29T17:48:02.562+08:00",
+            "id": "<YOUR_MESSAGE_ID>",
+            "recipient": "6599999999",
+            "values": {
+                "name": "john doe",
+                "fruit": "apple"
+            },
+            "fullMessage": "<YOUR_GENERATED_MESSAGE>",
+            "latestStatus": "success",
+            "templateBodyId": "YOUR_GENERATED_TEMPLATE_ID>",
+            "campaignId": "<YOUR_CAMPAIGN_ID>",
+            "templateBody": {
+                "createdAt": "2023-12-27T16:28:29.242+08:00",
+                "updatedAt": "2023-12-27T16:28:29.242+08:00",
+                "id": "<",
+                "templateId": "<YOUR_GENERATED_TEMPLATE_ID>",
+                "language": "english",
+                "body": "Dear {{name}}, your favourite food is {{fruit}}",
+                "creatorId": "<YOUR_GENERATED_CREATOR_ID>"
+            },
+            "language": "english"
+        }
+    ],
+    "pageData": {
+        "hasNextPage": false,
+        "hasPreviousPage": false,
+        "startCursor": "WyIyMDI0LTAxLTI5VDE3OjQ3OjUxLjQwMyswODowMCIsIjY4NSJd",
+        "endCursor": "WyIyMDI0LTAxLTI5VDE3OjQ3OjUxLjQwMyswODowMCIsIjY4NSJd"
+    }
 }
 ```
 {% endcode %}

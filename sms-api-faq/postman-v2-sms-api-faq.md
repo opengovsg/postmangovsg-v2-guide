@@ -151,7 +151,7 @@ description: >-
 
 26. **If consolidating all content into one 'message' parameter is allowed, what is the maximum character limit for this parameter?**
 
-    * \[Updated 18 Dec] 600 Characters
+    * Please refer to [character count](../postman-v2-admin-portal-for-api-users/create-message.md#character-count).
 
 
 27. **For `LatestStatus` field, how long do we need to wait before message is sent? how long to wait before we know if it was success or failure?**

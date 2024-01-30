@@ -14,12 +14,11 @@ POST /campaigns/:campaignId/messages
 ```json
 {
   "recipient": "6599999999",
-  "language": "english",
-  "values": {
-    // The following values are values for the parameters in the example template
-    "recipient_name": "Emily Yeo",
-    "topic": "passport application #12345F"
-  }
+    "language": "english",
+    "values": {
+        // The following values are values for the parameters in the example template
+        "name": "John Doe",
+        "fruit": "apple"}
 }
 ```
 {% endcode %}
@@ -27,14 +26,19 @@ POST /campaigns/:campaignId/messages
 {% code title="Example response body" overflow="wrap" %}
 ```json
 {
-  "id": "message_62a2a141-97f8-4fc8-82db-36f539228322",
-  "recipient": "6599999999",
-  "language": "english",
-  "values": {
-    "recipient_name": "Emily Yeo",
-    "topic": "passport application #12345F"
-  },
-  "latestStatus": "created"
+    "createdAt": "2024-01-29T17:39:35.574+08:00",
+    "updatedAt": "2024-01-29T17:39:35.574+08:00",
+    "id": "<YOUR_GENERATED_MESSAGE_ID>",
+    "recipient": "6599999999",
+    "values": {
+        "name": "John Doe",
+        "fruit": "apple"
+    },
+    "fullMessage": "<YOUR_FULL_MESSAGE>",
+    "latestStatus": "created",
+    "templateBodyId": "<YOUR_TEMPALTE_BODY_ID>",
+    "campaignId": "<YOUR_CAMPAIGN_ID>",
+    "language": "english"
 }
 ```
 {% endcode %}

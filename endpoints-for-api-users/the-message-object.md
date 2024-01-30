@@ -3,15 +3,19 @@
 ```json
 //Example response
 {
-  "id": "message_62a2a141-97f8-4fc8-82db-36f539228322",
-  "recipient": "6599999999",
-  "language": "english",
-  "values": {
-    "recipient_name": "Emily Yeo",
-    "topic": "passport application #12345F"
-  },
-  "latestStatus": "created",
-  "error": ""
+    "createdAt": "2024-01-29T17:39:35.574+08:00",
+    "updatedAt": "2024-01-29T17:39:35.574+08:00",
+    "id": "message_62a2a141-97f8-4fc8-82db-36f539228322",
+    "recipient": "6599999999",
+    "values": {
+        "name": "John Doe",
+        "fruit": "apple"
+    },
+    "fullMessage": "<YOUR_FULL_MESSAGE>",
+    "latestStatus": "created",
+    "templateBodyId": "<YOUR_TEMPALTE_BODY_ID>",
+    "campaignId": "campaign_74f38542-52d1-4323-a5e6-1bd133ace159",
+    "language": "english"
 }
 ```
 
@@ -46,6 +50,18 @@ The values that were inserted into the message template and form the complete me
 In the example above, the message template that was used contained two parameters: `recipient_name` and `topic`.
 
 Avoid using `recipient` and `language` as keywords as they are mandatory fields in the request payload.
+
+***
+
+**fullMessage** string
+
+Contains the full message including the SMS Header and Footer.
+
+***
+
+**campaignId** string
+
+Campaign identifier - this will inform you which campaign the message is tagged to.
 
 ***
 

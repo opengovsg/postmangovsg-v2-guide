@@ -45,7 +45,8 @@ request.send(formData);
 {% code title="Response Body" %}
 ```json
 {
-  "batchId": "batch_d11eabe6-8454-4934-96a6-4cdb9242412c"
+    "isValid": true,
+    "batchId": "<YOUR_BATCH_ID>"
 }
 ```
 {% endcode %}

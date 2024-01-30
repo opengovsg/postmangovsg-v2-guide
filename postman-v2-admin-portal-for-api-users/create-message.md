@@ -30,6 +30,18 @@ eg. You are helping to send messages on behalf of another agency.
 
 This flow allows you to create your own message in Postman using an editor and can be used by both admin portal and API users.
 
+#### Character count
+
+Postman's message character count is set at a **maximum of 1530 characters**, inclusive of the header and footer.&#x20;
+
+As a precautionary measure, agencies are strongly advised to set their character count for each message body at **600 characters,** excluding the header and footer. A warning sign will appear for messages beyond 600 characters.&#x20;
+
+\{{Variables\}} do not count as characters.&#x20;
+
+#### Message Blocks
+
+Each message block comprises of 160 characters. In Postman, a single **message** can comprise of more than 160 characters. The blocks will be combined and send out as a single **message** to recipients. Do note that the limit of each message's character count is set at 1530 characters.&#x20;
+
 #### Variables
 
 You will be able to create multiple `{{variables}}`. You can then input the values of each `{{variable}}`when you send the message from the admin portal or via API.
