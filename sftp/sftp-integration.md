@@ -3,36 +3,25 @@
 SFTP integration for campaigns is exclusively available on an opt-in basis and is not accessible through the admin portal.&#x20;
 
 * For questions related to SFTP, you may submit your inquiries [here](https://form.gov.sg/657025a2d2bd350012c82eb0).&#x20;
-* For agencies interested to use SFTP, forms links can be found at the bottom of this page.
+* For agencies interested to use SFTP, follow the steps below, then submit this [form](https://go.gov.sg/sftp-interest-form).
 
+### Beginning your SFTP integration
 
+1. Log into Postman and create a new campaign
+   * this generates your campaign ID needed to fill in the form.
+2. Generate your campaign API key
+   * this is the API key associated with your campaign.&#x20;
+   * find this in Settings -> Integrations
+   * whitelist these two static IP addresses
 
-You would need to whitelist the 2 IP address mentioned below in your campaign.
+<table><thead><tr><th>Environment</th><th width="235">IP Address to Whitelist</th><th data-type="number">Port</th></tr></thead><tbody><tr><td>Test Environment</td><td>18.136.33.127, 52.77.196.100</td><td>22</td></tr><tr><td>Production Environment</td><td>TBC</td><td>null</td></tr></tbody></table>
 
-You would also need to send us the following information:
+3. Go to the [form](https://go.gov.sg/sftp-interest-form).
+4. Fill in the details.&#x20;
+   * We will need your SSH keys. Refer to the following guide for instructions on generating ssh keys: [SSH Key Generation Guide](https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/generate-ssh-key-pair.html#GUID-8B9E7FCB-CEA3-4FB3-BF1A-FD3406A2432F)
+   * Notification email: this is the email address from which you wish to receive results of the file upload.
+5. Submit the form. Our team will add your account, then inform you of the following:
+   * your username: the campaign ID
+   * the SFTP server domain (environment dependent)
+6. Then [connect](https://guide-v2.postman.gov.sg/sftp/connecting-to-the-sftp-server) to our server, fill in the CSV file, and [drop](https://guide-v2.postman.gov.sg/sftp/sending-messages-via-sftp) it into our server
 
-**SSH public key:** We will use this to verify their SSH private key when they attempt to connect to the SFTP server. Refer to the following guide for instructions on generating ssh keys: [SSH Key Generation Guide](https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/generate-ssh-key-pair.html#GUID-8B9E7FCB-CEA3-4FB3-BF1A-FD3406A2432F)
-
-**Campaign ID:** campaign which needs SFTP integration. Users are required to first create a campaign through the admin portal
-
-**Campaign API Key:** This refers to the API key of the campaign and can be generated from the Settings -> Integrations Tab. Do not that you would have to whitelist these 2 static IP addresses per campaign. _NOTE: IP address will be provided from Feb 2024 onwards_
-
-**Notification Email:** The notification email we will use to send the result of the file upload to
-
-
-
-Once done, we will be providing you
-
-**Username:** Username to use for connecting to SFTP server . The username is your `campaignId`
-
-**SFTP Server domain:** Domain for connecting to the SFTP server (environment dependent)
-
-
-
-Please provide the following details in the respective interest form:
-
-| Environment            | Form Link                                                                    | SFTP Server Domain       | IP Address to Whitelist      |
-| ---------------------- | ---------------------------------------------------------------------------- | ------------------------ | ---------------------------- |
-| Test Environment       | [https://go.gov.sg/sftp-interest-form](https://go.gov.sg/sftp-interest-form) | test.sftp.postman.gov.sg | 18.136.33.127, 52.77.196.100 |
-| Production Environment | [https://go.gov.sg/sftp-interest-form](https://go.gov.sg/sftp-interest-form) | sftp.postman.gov.sg      | tbc                          |
-|                        |                                                                              |                          |                              |

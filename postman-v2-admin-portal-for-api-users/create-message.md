@@ -36,11 +36,15 @@ Postman's message character count is set at a **maximum of 1530 characters**, in
 
 As a precautionary measure, agencies are strongly advised to set their character count for each message body at **600 characters,** excluding the header and footer. A warning sign will appear for messages beyond 600 characters.&#x20;
 
-\{{Variables\}} do not count as characters.&#x20;
+Upon reaching 1000 characters (excluding header and footer), message sending will be disabled.
+
+Variable fields alone i.e. \{{variable\}} do not count as characters. However, each populated variable adds towards overall character count. e.g. \{{name\}} is 0 characters, but \{{name\}} = john is 4 characters.
+
+In the bulk send format, any errors in the CSV file rows will result in failure to send all other messages in the campaign. You will need to fix the error(s) before all messages in the campaign can be sent.
 
 #### Message Blocks
 
-Each message block comprises of 160 characters. In Postman, a single **message** can comprise of more than 160 characters. The blocks will be combined and send out as a single **message** to recipients. Do note that the limit of each message's character count is set at 1530 characters.&#x20;
+Each message _block_ comprises of 160 characters. In Postman, a single **SMS** can comprise of more than 160 characters. The blocks will be combined and sent out as a single **SMS** to recipients. It is recommended that the body content of each SMS should not exceed 600 characters.&#x20;
 
 #### Variables
 
