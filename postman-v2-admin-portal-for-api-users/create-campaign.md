@@ -60,3 +60,13 @@ You will be prompted to type out your message content.&#x20;
 Click here for more information regarding [\{{variables\}}](create-message.md#variables).
 
 <figure><img src="../.gitbook/assets/create_message (4).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+If you send a message with exact same content to the same person multiple times in 1 sitting in the same campaign:
+
+For example, the message "Hi your appointment is on 1 Jan 2024" was sent to Tom 10 times within 1 batch send.
+
+The telcos' automatic spam filter may be triggered . This means the message may not be delivered  to Tom's phone at all, even though it will pass Postman’s send filters and status is reflected as `delivered`.  See screenshot below on how the batch csv is formatted in this failed example.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-02-14 at 3.10.26 PM.png" alt=""><figcaption></figcaption></figure>
