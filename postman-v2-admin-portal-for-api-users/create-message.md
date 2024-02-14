@@ -144,7 +144,7 @@ you may create a single variable, `{{body}}`, and insert the message into the `{
 {% code title="Example CSV for batch send" %}
 ```
 recipient,language,body
-6599999999,english,Fill in your system constructed message here
+6599999999,english,"Fill in your system constructed message here"
 ```
 {% endcode %}
 
@@ -153,12 +153,17 @@ recipient,language,body
 {% code title="Example Request Body with line breaks" %}
 ```
 recipient,language,body
-6591234567,english,Dear Amy 
+6591234567,english,"Dear Amy 
 
 Your appointment for VACCINATION is confirmed.
 
-Please do not reply to this message.
+Please do not reply to this message."
 ```
 {% endcode %}
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-01-23 at 6.27.49 PM.png" alt=""><figcaption><p>Example of a CSV file</p></figcaption></figure>
+
+{% hint style="info" %}
+If you are typing your batch messages in excel and saving it as a .csv after, `""` will automatically be added to message bodies that includes commas, quotations and line breaks in them.  \
+If you are typing out your csv messages in a text editor, you will need to encase your messages in quotation marks or you will not be able to upload your file onto Postman.&#x20;
+{% endhint %}
