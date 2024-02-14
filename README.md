@@ -4,7 +4,9 @@ The Postman team is currently rebuilding Postman (v2) for sending out SMS-es.
 
 ## SMS API users
 
-The Postman team is currently rebuilding Postman (v2) for sending out SMS-es, where the infrastructure and user interface of the platform will be very different. Our staging platform will be up by the end of December 2023, where agencies can test out the new platform and obtain API keys needed for testing.
+The Postman team is currently rebuilding Postman (v2) for sending out SMS-es, where the infrastructure and user interface of the platform will be very different.&#x20;
+
+Our test platform is now live, you may access it through this link [https://test.postman.gov.sg](https://test.postman.gov.sg)
 
 ## Test Platform
 
@@ -15,8 +17,6 @@ If you are an admin portal user that does not require any system integration, yo
 \
 Admin Portal users can only start testing in **Feb 2024**, more details will be released in due course.
 {% endhint %}
-
-Our test platform is now live, you may access it through this link [https://test.postman.gov.sg](https://test.postman.gov.sg)
 
 #### Test Environment
 
