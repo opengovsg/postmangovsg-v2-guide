@@ -16,15 +16,14 @@ You may check on the email account that you've used to log into Postman by click
 If you have more than 1 official email address belonging to different agencies, ensure that you have [logged in with the correct email address](logging-into-postman-v2.md#singpass-login).
 {% endhint %}
 
-{% hint style="info" %}
-Please ignore `TODO: Persist sender ID` under the `Sender ID` field.
-{% endhint %}
-
-<figure><img src="../.gitbook/assets/home_email_account.png" alt=""><figcaption><p>Click on the avatar (bottom left) of page to check for the email address used to log into Postman</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/campaign_dashboard_account.png" alt=""><figcaption><p>Click on the avatar (bottom left) of page to check for the email address used to log into Postman</p></figcaption></figure>
 
 If you need to change the agency in the `Header`, please [contact us ](https://form.gov.sg/657025a2d2bd350012c82eb0)with your use case.
 
-eg. You are helping to send messages on behalf of another agency.
+Some examples:
+
+1. You are helping to send messages on behalf of another agency.
+2. Your **product** is helping to send messages on behalf of another agency.
 
 ## Message content
 
@@ -38,7 +37,7 @@ As a precautionary measure, agencies are strongly advised to set their character
 
 Upon reaching 1000 characters (excluding header and footer), message sending will be disabled.
 
-Variable fields alone i.e. \{{variable\}} do not count as characters. However, each populated variable adds towards overall character count. e.g. \{{name\}} is 0 characters, but \{{name\}} = john is 4 characters.
+Variable fields alone i.e. `{{variable}}` do not count as characters. However, each populated variable adds towards overall character count. e.g. `{{name}}` is 0 characters, but `{{name}}` = `john` is 4 characters.
 
 In the bulk send format, any errors in the CSV file rows will result in failure to send all other messages in the campaign. You will need to fix the error(s) before all messages in the campaign can be sent.
 
