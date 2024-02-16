@@ -7,6 +7,10 @@ SFTP integration for campaigns is exclusively available on an opt-in basis and i
 
 ### Beginning your SFTP integration
 
+{% hint style="warning" %}
+We only accept RSA, ECDSA, and ED25519 keys.
+{% endhint %}
+
 1. Log into Postman and create a new campaign
    * this generates your campaign ID needed to fill in the form.
 2. Generate your campaign API key
