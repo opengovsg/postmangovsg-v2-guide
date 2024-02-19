@@ -18,14 +18,12 @@ We only accept RSA, ECDSA, and ED25519 keys.
    * find this in Settings -> Integrations
    * whitelist these two static IP addresses (note: there is no need to whitelist your SFTP client's IP addresses. You will just need to whitelist Postman's IP addresses below)
 
-<table><thead><tr><th>Environment</th><th width="235">IP Address to Whitelist</th><th data-type="number">Port</th></tr></thead><tbody><tr><td>Test Environment</td><td>18.136.33.127, 52.77.196.100</td><td>22</td></tr><tr><td>Production Environment</td><td>TBC</td><td>null</td></tr></tbody></table>
+<table><thead><tr><th>Environment</th><th width="235">IP Address to Whitelist</th><th data-type="number">Port</th><th>SFTP Server Domain</th></tr></thead><tbody><tr><td>Test Environment</td><td>18.136.33.127, 52.77.196.100</td><td>22</td><td>test.sftp.postman.gov.sg</td></tr><tr><td>Production Environment</td><td>TBC</td><td>null</td><td></td></tr></tbody></table>
 
 3. Go to the [form](https://go.gov.sg/sftp-interest-form).
 4. Fill in the details.&#x20;
    * We will need your SSH keys. Refer to the following guide for instructions on generating ssh keys: [SSH Key Generation Guide](https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/generate-ssh-key-pair.html#GUID-8B9E7FCB-CEA3-4FB3-BF1A-FD3406A2432F)
    * Notification email: this is the email address from which you wish to receive results of the file upload.
-5. Submit the form. Our team will add your account, then inform you of the following:
-   * your username: the campaign ID
-   * the SFTP server domain (environment dependent)
+5. Submit the form. Our team will add your account, then inform you.
 6. Then [connect](https://guide-v2.postman.gov.sg/sftp/connecting-to-the-sftp-server) to our server, fill in the CSV file, and [drop](https://guide-v2.postman.gov.sg/sftp/sending-messages-via-sftp) it into our server
 
