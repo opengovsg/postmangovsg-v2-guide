@@ -12,11 +12,11 @@ We only accept RSA, ECDSA, and ED25519 keys.
 {% endhint %}
 
 1. Log into Postman and create a new campaign
-   * this generates your campaign ID needed to fill in the form.
+   * this generates your campaign ID needed to fill in the form
 2. Generate your campaign API key
-   * this is the API key associated with your campaign.&#x20;
+   * this is the API key associated with your campaign
    * find this in Settings -> Integrations
-   * whitelist these two static IP addresses
+   * whitelist these two static IP addresses (note: there is no need to whitelist your SFTP client's IP addresses. You will just need to whitelist Postman's IP addresses below)
 
 <table><thead><tr><th>Environment</th><th width="235">IP Address to Whitelist</th><th data-type="number">Port</th></tr></thead><tbody><tr><td>Test Environment</td><td>18.136.33.127, 52.77.196.100</td><td>22</td></tr><tr><td>Production Environment</td><td>TBC</td><td>null</td></tr></tbody></table>
 
