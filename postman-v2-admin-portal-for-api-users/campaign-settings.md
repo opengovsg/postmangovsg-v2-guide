@@ -2,9 +2,9 @@
 description: How do I whitelist my IP address and obtain my API keys?
 ---
 
-# ⚙ Campaign Settings
+# ⚙️ Campaign Settings
 
-You will be able to obtain your campaign API keys and whitelist your IP address from your campaign's `settings` pop-up, under the `integrations` tab. This part will be accessible after you have [created](create-campaign.md) and saved your campaign.&#x20;
+You will be able to obtain your campaign API keys and whitelist your IP address from your campaign's `settings` pop-up, under the `integrations` tab. This part will be accessible after you have [created](../postman-v2-general-user-guide/create-campaign.md) and saved your campaign.&#x20;
 
 Click on your campaign and the `settings` icon, this will open up your `settings` pop-up.
 
@@ -62,7 +62,7 @@ Integrations are where you can whitelist your IP addresses and generate your API
 
 #### Integrations - IP address whitelisting
 
-Provide your IP address for whitelisting. You will be able to provide up to 10 IP addresses.
+Provide your IP address for whitelisting. You will be able to provide up to 20 IP addresses.
 
 Whitelist only
 

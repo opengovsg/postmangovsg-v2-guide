@@ -7,7 +7,7 @@ Your API keys carry many privileges, so be sure to keep them secure. Don't share
 Authentication to the API is performed with [HTTP Bearer Auth](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#authentication\_schemes).&#x20;
 
 {% hint style="info" %}
-You will first need to [Create Campaign](../postman-v2-admin-portal-for-api-users/create-campaign.md) before you can generate your `campaignId`
+You will first need to [Create Campaign](../postman-v2-general-user-guide/create-campaign.md) before you can generate your `campaignId`
 {% endhint %}
 
 {% code title="An example curl request:" overflow="wrap" %}

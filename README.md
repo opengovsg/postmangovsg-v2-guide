@@ -24,7 +24,7 @@ Admin Portal users can only start testing in **Feb 2024**, more details will be 
 
 ## Inquiries and FAQ
 
-If you have any questions, please refer to our [FAQ page](sms-api-faq/postman-v2-sms-api-faq.md) for a list of frequently asked questions.&#x20;
+If you have any questions, please refer to our [FAQ page](faq/postman-v2-sms-api-faq/) for a list of frequently asked questions.&#x20;
 
 If your questions have not been answered, you may fill up our [Contact Us](https://form.gov.sg/657025a2d2bd350012c82eb0) form and our team will get back to you.
 

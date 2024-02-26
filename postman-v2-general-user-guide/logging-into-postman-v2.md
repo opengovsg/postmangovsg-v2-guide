@@ -1,18 +1,12 @@
 ---
-description: >-
-  Do note that this flow and screens presented are meant for API users accessing
-  the testing environment to test out our API endpoints.
+description: Login method for both admin portal users and API users are the same.
 ---
 
-# Logging into Postman v2
+# 🔐 Logging into Postman v2
 
-{% hint style="warning" %}
-For Admin Portal users that **do not require** any system integration should not be testing out with our test platform. You will only be able to test out the site in Feb 2024.&#x20;
-{% endhint %}
+## Government Officers
 
-### Government Officers
-
-There are 2 methods of of logging into Postman -  Singpass or your `.gov.sg` email address
+There are 2 methods of logging into Postman -  Singpass or your `.gov.sg` email address.
 
 You can only login to Postman v2 via SingPass if you have a `gov.sg` email address
 
@@ -45,3 +39,15 @@ For officers with more than 1 official `gov.sg` email address belonging to diffe
 <figure><img src="../.gitbook/assets/Options.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Agency users without a `gov.sg` email domain
+
+The following agencies without a `gov.sg` email domain can access Postman and are given [member access](../postman-v2-admin-portal-for-api-users/campaign-settings.md#settings-members).&#x20;
+
+* `edu.sg`
+* `synapxe.sg`
+* `aic.sg`
+
+{% hint style="info" %}
+More information for users who require admin access can be found [here](../postman-v2-admin-portal-for-api-users/campaign-settings.md#what-are-some-special-cases).
+{% endhint %}

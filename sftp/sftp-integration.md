@@ -16,9 +16,10 @@ We only accept RSA, ECDSA, and ED25519 keys.
 2. Generate your campaign API key
    * this is the API key associated with your campaign
    * find this in Settings -> Integrations
-   * whitelist these two static IP addresses (note: there is no need to whitelist your SFTP client's IP addresses. You will just need to whitelist Postman's IP addresses below)
+   * whitelist these two static IP addresses in the Postman Admin Portal
+     * Note: there is no need to whitelist your server's IP addresses. You will just need to whitelist Postman's IP addresses below)
 
-<table><thead><tr><th>Environment</th><th width="235">IP Address to Whitelist</th><th data-type="number">Port</th><th>SFTP Server Domain</th></tr></thead><tbody><tr><td>Test Environment</td><td>18.136.33.127, 52.77.196.100</td><td>22</td><td>test.sftp.postman.gov.sg</td></tr><tr><td>Production Environment</td><td>TBC</td><td>null</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Environment</th><th width="235">IP Address to Whitelist in Postman Admin Portal</th><th data-type="number">Port</th><th>SFTP Server Domain</th></tr></thead><tbody><tr><td>Test Environment</td><td>18.136.33.127, 52.77.196.100</td><td>22</td><td>test.sftp.postman.gov.sg</td></tr><tr><td>Production Environment</td><td>TBC</td><td>null</td><td></td></tr></tbody></table>
 
 3. Go to the [form](https://go.gov.sg/sftp-interest-form).
 4. Fill in the details.&#x20;
