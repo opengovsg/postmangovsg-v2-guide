@@ -39,6 +39,7 @@
 * [Retrieve Message](endpoints-for-api-users/retrieve-message.md)
 * [Batch Send](endpoints-for-api-users/batch-send.md)
 * [Retrieve Batch](endpoints-for-api-users/retrieve-batch.md)
+* [Retrieve Campaign Message](endpoints-for-api-users/retrieve-campaign-message.md)
 
 ## SFTP
 
