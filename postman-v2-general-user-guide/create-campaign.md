@@ -86,7 +86,7 @@ This is how your message will look like:
 
 <figure><img src="../.gitbook/assets/message preview.png" alt=""><figcaption><p>Message Preview</p></figcaption></figure>
 
-**Header**
+#### **Header**
 
 The `Header` corresponds to the email account that you have logged into Postman with.
 
