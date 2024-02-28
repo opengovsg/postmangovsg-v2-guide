@@ -45,7 +45,7 @@ Postman has 2 types of campaign channels available - **Member of Public** and **
 2. Internal Staff - to send out with your own sender ID
    * You will need to provide your own Twilio credentials if you choose the `Internal Staff` option
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-26 at 10.11.49 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-02-28 at 2.23.13 PM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 All messages sent out to MOPs via the `Members of Public` option will come from the `Postman`sender ID.
@@ -53,15 +53,21 @@ All messages sent out to MOPs via the `Members of Public` option will come from 
 
 #### Temporary Sender Name (mid-April 2024 to launch)
 
-Postman will be ready for use from mid-April 2024.&#x20;
+**Users with existing sender IDs with SGNIC**
 
-Users will be able to use WOG Sender IDs that their agencies registered with SGNIC thus far. The sender IDs will appear as options under the `Select temporary sender name` field.
+Postman will be ready only for users with existing Sender IDs that are registered with SGNIC from mid-April 2024.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-26 at 10.11.49 AM copy.png" alt=""><figcaption></figcaption></figure>
+These users will be able to use their agencies' registered sender IDs with SGNIC, where the sender IDs will appear as options under the `Select temporary sender name` field.
 
 In the example below, the available sender IDs that the user's agency registered are `Government Technology Agency` and `Open Government Products`. The user will not be able to see other sender IDs registered by other agencies.&#x20;
 
+<figure><img src="../.gitbook/assets/Screenshot 2024-02-28 at 2.23.13 PM copy.png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/Campaign_crete_temporary_sender_name (1).png" alt=""><figcaption></figcaption></figure>
+
+**Users with no existing Sender IDs**
+
+Users without registered sender IDs with SGNIC can only use Postman production site from 1 June 2024, where WOG will be able to select the standardised Sender ID from the dropdown list.
 
 ### 3. Campaign content
 
