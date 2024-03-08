@@ -148,10 +148,14 @@ As such, **do not** encase the message in the `{{body}}` variable in `""`.
 ### Postman Test Site limitations
 
 {% hint style="danger" %}
-**DO NOT** conduct load testing on our test site.
+**DO NOT** conduct load testing on our test site.&#x20;
+
+[Postman test site](https://test.postman.gov.sg/) has a .csv file limit of 20 rows to ensure no load testing is done on this site. More information [here](../postman-v2-api-docs/about-postman-v2/postman-v2-slas.md#id-4.-whats-the-sms-throughput-rate) on load testing.
 {% endhint %}
 
 Postman's test site is meant for agency users to test out the platform. As such, you should test out the site like how you would send out messages to MOPs in a real scenario, where each number will only receive a single message.&#x20;
+
+**Multiple messages to the same user**
 
 If you send test messages with exact same content to the same person multiple times in 1 sitting in the same campaign:
 

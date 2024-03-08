@@ -19,7 +19,7 @@
 
     *   There is no limit on the number of characters in each variable. The total message length (excluding header and footer) shall not exceed 1000 characters. Please note that the character limit still applies to the characters within each variable.
 
-        Refer to [this page](../../postman-v2-general-user-guide/create-campaign.md#character-count) for more information.
+        Refer to [this page](../../postman-v2-general-user-guide/create-campaign/#character-count) for more information.
 
 
 4.  **How many campaigns can I create, is there a limit?**

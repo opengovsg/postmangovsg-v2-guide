@@ -17,7 +17,7 @@
 
 4.  **Regarding Authentication - can we have more information on bearer auth? Are we going to call a token API to get API keys or it will be generated from Postman Admin Portal?**
 
-    * API keys are generated from the [Postman Admin Portal.](../../postman-v2-general-user-guide/create-campaign.md)
+    * API keys are generated from the [Postman Admin Portal.](../../postman-v2-general-user-guide/create-campaign/)
 
 
 5.  **Does each agency get 1 API key for all systems or each system can request to get their separate unique API key?**

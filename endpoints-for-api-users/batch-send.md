@@ -1,5 +1,9 @@
 # Batch Send
 
+{% hint style="danger" %}
+[Postman test site](https://test.postman.gov.sg/login) has a .csv file limit of 20 rows to ensure no load testing is done on this site. More information [here](../postman-v2-api-docs/about-postman-v2/postman-v2-slas.md#id-4.-whats-the-sms-throughput-rate) on load testing.
+{% endhint %}
+
 Sends multiple messages in a single API request.
 
 You will need to prepare a CSV file where, in addition to recipient and language, each column represents a value to the campaign’s template parameter.

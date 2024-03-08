@@ -11,7 +11,11 @@
 ## Postman v2 general user guide
 
 * [🔐 Logging into Postman v2](postman-v2-general-user-guide/logging-into-postman-v2.md)
-* [📢 Create Campaign](postman-v2-general-user-guide/create-campaign.md)
+* [📢 Create Campaign](postman-v2-general-user-guide/create-campaign/README.md)
+  * [Message Preview](postman-v2-general-user-guide/create-campaign/message-preview.md)
+  * [Language tab](postman-v2-general-user-guide/create-campaign/language-tab.md)
+  * [Message content](postman-v2-general-user-guide/create-campaign/message-content.md)
+  * [Character count](postman-v2-general-user-guide/create-campaign/character-count.md)
 * [🪵 Message Logs](postman-v2-general-user-guide/message-logs.md)
 
 ## Postman Admin Portal, for UI Users
