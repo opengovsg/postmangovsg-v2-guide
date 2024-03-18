@@ -53,8 +53,8 @@ For agency officers without a `.gov.sg` email domain, you will need to get `.gov
    1. In such cases, Postman will _not_ be granting vendors access to the portal. This means vendors with non-whitelisted email domains cannot log into Postman.
    2. Agency officers should log into Postman, create the campaign and craft the message, whitelist the IP addresses, generate the API keys and pass the API keys to the vendors for the necessary integration.
 3. **Vendors helping government entities send messages on Postman UI**
-   1. In such cases, agency PICs must submit this form requesting for the Postman team to whitelist the vendor domain. This will allow vendors to log into Postman, and view campaigns that the vendors have been added to by the agency admins.
-   2. Vendors will then be able to log in and send messages, but _not_ create campaigns i.e. member access
+   1. In such cases, agency PICs must [submit a request](https://form.gov.sg/657025a2d2bd350012c82eb0) for the Postman team to whitelist the vendor's domain. This will allow vendors to log into Postman, and view campaigns that the vendors have been added to by the agency admins.
+   2. Vendors will then be able to log in and send messages, but _**not**_ create campaigns i.e. member access
 
 ### Integrations
 
