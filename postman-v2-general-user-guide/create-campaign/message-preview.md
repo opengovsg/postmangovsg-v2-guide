@@ -4,7 +4,7 @@
 
 This is how your message will look like:
 
-<figure><img src="../../.gitbook/assets/message preview.png" alt=""><figcaption><p>Message Preview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/message preview (1).png" alt=""><figcaption><p>Message Preview</p></figcaption></figure>
 
 #### **Header**
 
