@@ -163,6 +163,6 @@ eg. "Hi your appointment is on 1 Jan 2024" was sent to Tom 10 times within 1 bat
 
 The telcos' automatic spam filter may be triggered . This means the message may not be delivered  to Tom's phone at all, even though it will pass Postman’s send filters and status is reflected as `delivered`.  See screenshot below on how the batch .csv is formatted in this failed example.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 [^1]: 

@@ -9,24 +9,38 @@
 * [🏋️ Important dates](postman-v2-api-docs/important-dates.md)
 * [🛒 Useful Links](postman-v2-api-docs/useful-links.md)
 
-## Postman v2 general user guide
+## Postman v2 general user guide (MoP)
 
-* [🔐 Logging into Postman v2](postman-v2-general-user-guide/logging-into-postman-v2.md)
-* [📢 Create Campaign](postman-v2-general-user-guide/create-campaign/README.md)
-  * [Message Preview](postman-v2-general-user-guide/create-campaign/message-preview.md)
-  * [Language tab](postman-v2-general-user-guide/create-campaign/language-tab.md)
-  * [Message content](postman-v2-general-user-guide/create-campaign/message-content.md)
-  * [Character count](postman-v2-general-user-guide/create-campaign/character-count.md)
-* [🪵 Message Logs](postman-v2-general-user-guide/message-logs.md)
+* [🔐 Logging into Postman v2](postman-v2-general-user-guide-mop/logging-into-postman-v2.md)
+* [📢 Create Campaign](postman-v2-general-user-guide-mop/create-campaign/README.md)
+  * [Message Preview](postman-v2-general-user-guide-mop/create-campaign/message-preview.md)
+  * [Language tab](postman-v2-general-user-guide-mop/create-campaign/language-tab.md)
+  * [Message content](postman-v2-general-user-guide-mop/create-campaign/message-content.md)
+  * [Character count](postman-v2-general-user-guide-mop/create-campaign/character-count.md)
+* [🪵 Message Logs](postman-v2-general-user-guide-mop/message-logs.md)
 
-## Postman Admin Portal, for UI Users
+## Postman v2 Admin Portal, for UI Users (MOP)
 
-* [📤 Sending messages via the Admin Portal](postman-admin-portal-for-ui-users/sending-messages-via-the-admin-portal.md)
+* [📤 Sending messages via the Admin Portal](postman-v2-admin-portal-for-ui-users-mop/sending-messages-via-the-admin-portal.md)
 
-## Postman v2 Admin Portal for API users
+## Postman v2 Admin Portal for API users (MOP)
 
-* [⚙️ Campaign Settings](postman-v2-admin-portal-for-api-users/campaign-settings.md)
-* [🖥️ Sending Messages via Postman API](postman-v2-admin-portal-for-api-users/sending-messages-via-postman-api.md)
+* [⚙️ Campaign Settings](postman-v2-admin-portal-for-api-users-mop/campaign-settings.md)
+* [🖥️ Sending Messages via Postman API](postman-v2-admin-portal-for-api-users-mop/sending-messages-via-postman-api.md)
+
+## Postman v2 admin portal, for UI users (Internal)
+
+* [Internal SMS](postman-v2-admin-portal-for-ui-users-internal/internal-sms.md)
+* [Information for new Twilio users](postman-v2-admin-portal-for-ui-users-internal/information-for-new-twilio-users.md)
+* [Summary of Costs](postman-v2-admin-portal-for-ui-users-internal/summary-of-costs.md)
+* [How do I onboard Postman v2 Internal SMS](postman-v2-admin-portal-for-ui-users-internal/how-do-i-onboard-postman-v2-internal-sms/README.md)
+  * [1. Sender ID Registration](postman-v2-admin-portal-for-ui-users-internal/how-do-i-onboard-postman-v2-internal-sms/1.-sender-id-registration.md)
+  * [2. Sign up for a Twilio account](postman-v2-admin-portal-for-ui-users-internal/how-do-i-onboard-postman-v2-internal-sms/2.-sign-up-for-a-twilio-account.md)
+  * [3. Set up your Twilio account](postman-v2-admin-portal-for-ui-users-internal/how-do-i-onboard-postman-v2-internal-sms/3.-set-up-your-twilio-account.md)
+  * [4. Configure Your Twilio Account](postman-v2-admin-portal-for-ui-users-internal/how-do-i-onboard-postman-v2-internal-sms/4.-configure-your-twilio-account/README.md)
+    * [What if I need to buy a phone number?](postman-v2-admin-portal-for-ui-users-internal/how-do-i-onboard-postman-v2-internal-sms/4.-configure-your-twilio-account/what-if-i-need-to-buy-a-phone-number.md)
+  * [5. Send a Test Message on Twilio](postman-v2-admin-portal-for-ui-users-internal/how-do-i-onboard-postman-v2-internal-sms/5.-send-a-test-message-on-twilio.md)
+  * [6: Fill in your Twilio credentials in Postman](postman-v2-admin-portal-for-ui-users-internal/how-do-i-onboard-postman-v2-internal-sms/6-fill-in-your-twilio-credentials-in-postman.md)
 
 ## General notes for API users
 

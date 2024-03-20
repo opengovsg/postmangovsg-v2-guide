@@ -19,7 +19,7 @@ Upon selecting `single recipient`, a pop-up will prompt you to key in your recip
 Once the details have been filled in, click `send` to send out your message.&#x20;
 
 {% hint style="info" %}
-Message language option is only available if the campaign admin has selected multiple languages during the [campaign creation process](../postman-v2-general-user-guide/create-campaign/#language-tab). If no languages have been added, the default language will be `English` and you will not be able to select other languages.&#x20;
+Message language option is only available if the campaign admin has selected multiple languages during the [campaign creation process](../postman-v2-general-user-guide-mop/create-campaign/#language-tab). If no languages have been added, the default language will be `English` and you will not be able to select other languages.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
@@ -52,7 +52,7 @@ We highly recommend the following steps when formatting your .csv file to send o
 
 In the multiple recipients sending format, any errors in the CSV file rows will result in failure to send all other messages in the campaign. You will need to fix the error(s) before all messages in the batch can be sent.
 
-The header row will require to match the [variables](../postman-v2-general-user-guide/create-campaign/#message-parameters-variables) created, such as containing lowercase letters, numbers and `_`.
+The header row will require to match the [variables](../postman-v2-general-user-guide-mop/create-campaign/#message-parameters-variables) created, such as containing lowercase letters, numbers and `_`.
 
 #### Recipient
 

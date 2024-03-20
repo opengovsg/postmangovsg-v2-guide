@@ -42,12 +42,12 @@ For officers with more than 1 official `gov.sg` email address belonging to diffe
 
 ### Agency users without a `gov.sg` email domain
 
-The following agencies without a `gov.sg` email domain can access Postman and are given [member access](../postman-v2-admin-portal-for-api-users/campaign-settings.md#settings-members).&#x20;
+The following agencies without a `gov.sg` email domain can access Postman and are given [member access](../postman-v2-admin-portal-for-api-users-mop/campaign-settings.md#settings-members).&#x20;
 
 * `edu.sg`
 * `synapxe.sg`
 * `aic.sg`
 
 {% hint style="info" %}
-More information for users who require admin access can be found [here](../postman-v2-admin-portal-for-api-users/campaign-settings.md#what-are-some-special-cases).
+More information for users who require admin access can be found [here](../postman-v2-admin-portal-for-api-users-mop/campaign-settings.md#what-are-some-special-cases).
 {% endhint %}

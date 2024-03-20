@@ -17,7 +17,7 @@
 
 4.  **When do we submit our IP addresses for whitelisting?**
 
-    * This will be done in the campaign creation flow. Refer to our [API documents](../../postman-v2-admin-portal-for-api-users/campaign-settings.md#integrations-ip-address-whitelisting) for more information.
+    * This will be done in the campaign creation flow. Refer to our [API documents](../../postman-v2-admin-portal-for-api-users-mop/campaign-settings.md#integrations-ip-address-whitelisting) for more information.
 
 
 5.  **Does postman accept whitelisting of CIDR blocks?**
@@ -27,7 +27,7 @@
 
 6.  **Is whitelisting the source IP address sufficient for us to use Postman to send out SMSes?**
 
-    * Yes. In addition, you will only be able to obtain your API keys **after** you have whitelisted your IP address. Read [here](../../postman-v2-admin-portal-for-api-users/campaign-settings.md#integrations-ip-address-whitelisting) for more info.
+    * Yes. In addition, you will only be able to obtain your API keys **after** you have whitelisted your IP address. Read [here](../../postman-v2-admin-portal-for-api-users-mop/campaign-settings.md#integrations-ip-address-whitelisting) for more info.
 
 
 7.  **Is there any firewall that we need to open to allow our API gateway to reach postman API gateway ?**
@@ -41,4 +41,4 @@
 
 
 9. **How many officers own a single campaign? Can we have more than 1 admin in case an officer leaves the organisation?**
-   * Each campaign can have as many campaign admins and members, for more information please check out the [admin and members page](../../postman-v2-admin-portal-for-api-users/campaign-settings.md#settings-members).
+   * Each campaign can have as many campaign admins and members, for more information please check out the [admin and members page](../../postman-v2-admin-portal-for-api-users-mop/campaign-settings.md#settings-members).

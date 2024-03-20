@@ -55,7 +55,7 @@
 10. **Language Specification : If our template and values are in Chinese, but we specify English as the language, how will Postman behave?**
 
     * Scenario 1: You have removed `English` in the create campaign step, and specify `english` as a header in your .csv file. You will get an error informing you that you chose an unavailable language.&#x20;
-    * Scenario 2: You have included `English` in the campaign creation step, but your message content is in chinese. Your message will have its message content in Chinese, but the footer will be in English. More information [here](https://api-docs.postman.gov.sg/campaigns-and-messages/create-message#language)[.](../../postman-v2-general-user-guide/create-campaign/#language-tab)
+    * Scenario 2: You have included `English` in the campaign creation step, but your message content is in chinese. Your message will have its message content in Chinese, but the footer will be in English. More information [here](https://api-docs.postman.gov.sg/campaigns-and-messages/create-message#language)[.](../../postman-v2-general-user-guide-mop/create-campaign/#language-tab)
 
 
 11. **Language Parameter - Mandatory Field: Is the `language` parameter mandatory for sending messages?**

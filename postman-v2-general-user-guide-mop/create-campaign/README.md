@@ -16,8 +16,8 @@ Campaign creation should be the first step for all users, regardless if they are
 In order for API users to obtain the API keys for system integration, you will need to&#x20;
 
 1. Create Campaign and obtain a Campaign ID
-2. [Whitelist your IP address](../../postman-v2-admin-portal-for-api-users/campaign-settings.md#ip-address-whitelisting)
-3. [Generate your API keys](../../postman-v2-admin-portal-for-api-users/campaign-settings.md#api-keys)
+2. [Whitelist your IP address](../../postman-v2-admin-portal-for-api-users-mop/campaign-settings.md#ip-address-whitelisting)
+3. [Generate your API keys](../../postman-v2-admin-portal-for-api-users-mop/campaign-settings.md#api-keys)
 
 ## Create Campaign
 

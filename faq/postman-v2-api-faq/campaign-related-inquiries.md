@@ -19,7 +19,7 @@
 
     *   There is no limit on the number of characters in each variable. The total message length (excluding header and footer) shall not exceed 1000 characters. Please note that the character limit still applies to the characters within each variable.
 
-        Refer to [this page](../../postman-v2-general-user-guide/create-campaign/#character-count) for more information.
+        Refer to [this page](../../postman-v2-general-user-guide-mop/create-campaign/#character-count) for more information.
 
 
 4.  **How many campaigns can I create, is there a limit?**
@@ -44,4 +44,4 @@
 7. **Can we not set up any customised campaign - i.e. we can setup the API keys, IP whitelisting and starting using the Postman API to send out SMSes?**
    *   This is not possible as the API keys are tied to the campaign and can only be generated after a campaign is created.
 
-       In such cases, we recommend creating a campaign with only [1 variable](../../postman-v2-admin-portal-for-api-users/sending-messages-via-postman-api.md#api-users-who-do-not-want-to-manage-your-message-templates-within-postman) - `{{body}}`. You can then input any message body you wish from your own system into the `{{body}}` variable.
+       In such cases, we recommend creating a campaign with only [1 variable](../../postman-v2-admin-portal-for-api-users-mop/sending-messages-via-postman-api.md#api-users-who-do-not-want-to-manage-your-message-templates-within-postman) - `{{body}}`. You can then input any message body you wish from your own system into the `{{body}}` variable.
