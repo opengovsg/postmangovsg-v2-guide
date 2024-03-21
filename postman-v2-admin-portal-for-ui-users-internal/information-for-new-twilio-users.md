@@ -12,6 +12,6 @@ If you are unable to obtain a corporate credit card, you can explore direct invo
 
 ### **What is the cost?**
 
-At this point of writing (May 2024), it costs USD$0.0415 per message segment of 160 characters to send to recipients with Singapore numbers. If your message is longer than 160 characters, you will be charged the cost of as many message segments.
+At this point of writing (March 2024), it costs USD$0.0415 per message segment of 160 characters to send to recipients with Singapore numbers. If your message is longer than 160 characters, you will be charged the cost of as many message segments.
 
 You may refer to Twilio's [page](https://www.twilio.com/sms/pricing/sg) for the latest rates. You will be charged the cost according to the destination handset i.e. you will be charged the US rate for sending to a US number, even if the recipient with this number is based in Singapore.
